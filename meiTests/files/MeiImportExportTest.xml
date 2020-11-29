@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ligature xmlns="http://www.music-encoding.org/ns/mei" xml:id="a">
+  <note n="1" label="i" xml:id="b"/>
+  <note n="2" label="am" xml:id="c"/>
+  <note n="3" label="a" xml:id="d"/>
+  <note n="4" label="test" xml:id="e"/>
+</ligature>

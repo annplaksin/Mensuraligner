@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href='../mei-Mensural_sourceEncoding.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?>
+<?xml-model href="../mei-Mensural_sourceEncoding.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<music xmlns="http://www.music-encoding.org/ns/mei"
+    xmlns:mse="http://github.com/annplaksin/mensural_sourceEncoding" meiversion="2013"
+    meiversion.num="2.1.1">
+    <body>
+        <mdiv n="DamageTest" type="section">
+            <pages>
+                <page n="155v">
+                    <mse:panel label="Discantus" n="1" type="part">
+                        <system n="1">
+                            <staff>
+                                <layer>
+                                    <clef shape="C" line="4"/>
+                                    <keySig>
+                                        <keyAccid accid="f" loc="5" pname="b" oct="3"/>
+                                    </keySig>
+                                    <mensur altsym="#Mensur_Ccut" sign="C" slash="1" tempus="2" prolatio="2" numbase="1" num="2"/>
+                                    <note pname="b" oct="3" dur="semibrevis" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note pname="a" oct="3" dur="minima"/>
+                                    <note pname="g" oct="3" dur="semibrevis"/>
+                                    <note pname="f" oct="3" dur="semibrevis"/>
+                                    <note pname="g" oct="3" dur="brevis"/>
+                                    <ligature form="recta">
+                                        <note pname="d" oct="3" dur="brevis"/>
+                                        <note pname="e" oct="3" dur="brevis"/>
+                                    </ligature>
+                                    <ligature form="recta">
+                                        <note pname="f" oct="3" dur="brevis"/>
+                                        <note pname="g" oct="3" dur="brevis"/>
+                                    </ligature>
+                                    <ligature form="recta">
+                                        <note pname="b" oct="3" dur="semibrevis" stem.dir="up" stem.pos="left"/>
+                                        <note pname="a" oct="3" dur="semibrevis"/>
+                                    </ligature>
+                                    <note pname="c" oct="4" dur="brevis"/>
+                                    <note pname="d" oct="4" dur="semibrevis"/>
+                                    <note pname="b" oct="3" dur="minima"/>
+                                    <note pname="c" oct="4" dur="minima"/>
+                                    <note pname="d" oct="4" dur="minima" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note pname="c" oct="4" dur="semiminima"/>
+                                    <note pname="b" oct="3" dur="semiminima"/>
+                                    <note pname="a" oct="3" dur="semiminima"/>
+                                    <note pname="g" oct="3" dur="semibrevis"/>
+                                    <note pname="b" oct="3" dur="minima"/>
+                                    <note pname="a" oct="3" dur="semibrevis"/>
+                                    <note pname="g" oct="3" dur="longa"/>
+                                    <barLine rend="dbl"/>
+                                </layer>
+                            </staff>
+                        </system>
+                    </mse:panel>
+                </page>
+            </pages>
+        </mdiv>
+    </body>
+</music>

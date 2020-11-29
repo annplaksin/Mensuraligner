@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href='mei-Mensural_sourceEncoding.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?>
+<?xml-model href="mei-Mensural_sourceEncoding.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<music xmlns="http://www.music-encoding.org/ns/mei"
+    xmlns:mse="http://github.com/annplaksin/mensural_sourceEncoding" meiversion="2013"
+    meiversion.num="2.1.1">
+    <body>
+        <mdiv label="SuppliedAlignTest" type="section">
+            <pages>
+                <page n="42v">
+                    <mse:panel label="SeqA" n="1" type="part">
+                        <system n="1">
+                            <staff>
+                                <layer>
+                                    <clef shape="F" line="4"/>
+                                    <mensur sign="C" slash="1" altsym="#Mensur_Ccut" tempus="2" prolatio="2" num="1" numbase="2"/>
+                                    <note dur="brevis" pname="a" oct="3"/>
+                                    <note dur="semibrevis" pname="a" oct="3" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="brevis" pname="a" oct="3"/>
+                                    <note dur="semibrevis" pname="a" oct="3" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="minima" pname="a" oct="3"/>
+                                    <note dur="brevis" pname="a" oct="3"/>
+                                </layer>
+                            </staff>
+                        </system>
+                    </mse:panel>
+                </page>
+            </pages>
+        </mdiv>
+    </body>
+</music>
+

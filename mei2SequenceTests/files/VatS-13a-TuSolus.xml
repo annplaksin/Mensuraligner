@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href='mei-Mensural_sourceEncoding.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?>
+<?xml-model href="mei-Mensural_sourceEncoding.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<music xmlns="http://www.music-encoding.org/ns/mei"
+    xmlns:mse="http://github.com/annplaksin/mensural_sourceEncoding" meiversion="2013"
+    meiversion.num="2.1.1">
+    <body>
+        <mdiv n="13a" type="section">
+            <pages>
+                <page n="155v">
+                    <mse:panel label="Discantus" n="1" type="part">
+                        <system n="1">
+                            <staff>
+                                <layer>
+                                    <clef shape="C" line="1"/>
+                                    <keySig>
+                                        <keyAccid accid="f" loc="6" pname="b" oct="4"/>
+                                    </keySig>
+                                    <mensur altsym="#Mensur_Ccut" sign="C" slash="1" tempus="2" prolatio="2" numbase="1" num="2"/>
+                                    <note dur="brevis" pname="b" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="b" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="a" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="g" oct="4" fermata="above"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="semibrevis" pname="a" oct="4" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="minima" pname="g" oct="4"/>
+                                    <note dur="semibrevis" pname="f" oct="4"/>
+                                    <note dur="semibrevis" pname="e" oct="4"/>
+                                    <note dur="brevis" pname="d" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="b" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="b" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="a" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="g" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="g" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="f" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="a" oct="4"/>
+                                    <custos pname="a" oct="4"/>
+                                </layer>
+                            </staff>
+                        </system>
+                        <system n="2">
+                            <staff>
+                                <layer>
+                                    <clef shape="C" line="1"/>
+                                    <keySig>
+                                        <keyAccid accid="f" loc="6" pname="b" oct="4"/>
+                                    </keySig>
+                                    <note dur="semibrevis" pname="a" oct="4"/>
+                                    <note dur="brevis" pname="b" oct="4"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="brevis" pname="g" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="f" oct="4"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="brevis" pname="f" oct="4"/>
+                                    <note dur="brevis" pname="e" oct="4"/>
+                                    <note dur="brevis" pname="d" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="f" oct="4"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="semibrevis" pname="f" oct="4"/>
+                                    <note dur="brevis" pname="g" oct="4" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semibrevis" pname="a" oct="4"/>
+                                    <note dur="brevis" pname="a" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="b" oct="4"/>
+                                    <note dur="semibrevis" pname="a" oct="4"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="semibrevis" pname="a" oct="4" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="minima" pname="f" oct="4"/>
+                                    <custos pname="f" oct="4"/>
+                                </layer>
+                            </staff>
+                        </system>
+                        <system n="3">
+                            <staff>
+                                <layer>
+                                    <clef shape="C" line="1"/>
+                                    <keySig>
+                                        <keyAccid accid="f" loc="6" pname="b" oct="4"/>
+                                    </keySig>
+                                    <note dur="brevis" pname="f" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="b" oct="4"/>
+                                    <note dur="semibrevis" pname="a" oct="4"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="brevis" pname="f" oct="4" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="longa" pname="g" oct="4"/>
+                                    <barLine rend="dbl"/>
+                                    <mensur altsym="#Mensur_Ccut" sign="C" slash="1" tempus="2" prolatio="2" numbase="1" num="2"/>
+                                    <rest dur="maxima"/>
+                                    <note dur="semibrevis" pname="b" oct="4"/>
+                                    <note dur="minima" pname="b" oct="4"/>
+                                    <note dur="minima" pname="b" oct="4"/>
+                                    <note dur="semibrevis" pname="a" oct="4" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="minima" pname="a" oct="4"/>
+                                    <note dur="minima" pname="b" oct="4" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semiminima" pname="a" oct="4"/>
+                                    <note dur="minima" pname="g" oct="4"/>
+                                    <note dur="minima" pname="f" oct="4"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <rest dur="minima"/>
+                                    <note dur="minima" pname="b" oct="4"/>
+                                    <note dur="minima" pname="b" oct="4"/>
+                                    <note dur="minima" pname="b" oct="4"/>
+                                    <note dur="minima" pname="b" oct="4"/>
+                                    <note dur="minima" pname="b" oct="4"/>
+                                    <note dur="semibrevis" pname="a" oct="4"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="semibrevis" pname="f" oct="4"/>
+                                    <rest dur="semibrevis"/>
+                                    <note dur="brevis" pname="g" oct="4" fermata="above"/>
+                                    <custos pname="g" oct="4"/>
+                                </layer>
+                            </staff>
+                        </system>
+                        <system n="4">
+                            <staff>
+                                <layer>
+                                    <clef shape="C" line="1"/>
+                                    <keySig>
+                                        <keyAccid accid="f" loc="6" pname="b" oct="4"/>
+                                    </keySig>
+                                    <note dur="brevis" pname="d" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="e" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="d" oct="4" fermata="above"/>
+                                    <proport altsym="#Proportion_3" num="2" numbase="3" label="sesquialtera" mse:affected="semibrevis"/>
+                                    <rest dur="maxima"/>
+                                    <note dur="semibrevis" pname="b" oct="4"/>
+                                    <note dur="semibrevis" pname="b" oct="4"/>
+                                    <note dur="semibrevis" pname="b" oct="4"/>
+                                    <note dur="semibrevis" pname="c" oct="5" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="minima" pname="b" oct="4"/>
+                                    <note dur="semibrevis" pname="a" oct="4"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="semibrevis" pname="f" oct="4"/>
+                                    <note dur="brevis" pname="g" oct="4" num="2" numbase="3"/>
+                                    <note dur="semibrevis" pname="b" oct="4"/>
+                                    <ligature form="recta">
+                                        <note dur="semibrevis" pname="a" oct="4"/>
+                                        <note dur="semibrevis" pname="b" oct="4"/>
+                                    </ligature>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="brevis" pname="f" oct="4" num="2" numbase="3"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <ligature form="recta">
+                                        <note dur="semibrevis" pname="a" oct="4"/>
+                                        <note dur="semibrevis" pname="b" oct="4"/>
+                                    </ligature>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="brevis" pname="a" oct="4" fermata="above" num="2" numbase="3"/>
+                                    <rest dur="semibrevis"/>
+                                    <note dur="brevis" pname="g" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="g" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="f" oct="4" fermata="above"/>
+                                    <note dur="longa" pname="g" oct="4"/>
+                                    <barLine rend="single"/>
+                                </layer>
+                            </staff>
+                        </system>
+                    </mse:panel>
+                    <mse:panel label="Tenor" n="2" type="part">
+                        <system n="1">
+                            <staff>
+                                <layer>
+                                    <clef shape="C" line="4"/>
+                                    <keySig>
+                                        <keyAccid accid="f" loc="5" pname="b" oct="3"/>
+                                    </keySig>
+                                    <mensur altsym="#Mensur_Ccut" sign="C" slash="1" tempus="2" prolatio="2" numbase="1" num="2"/>
+                                    <note dur="brevis" pname="g" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="b" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="c" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="c" oct="4" fermata="above"/>
+                                    <note dur="semibrevis" pname="c" oct="4"/>
+                                    <note dur="semibrevis" pname="c" oct="4"/>
+                                    <note dur="semibrevis" pname="a" oct="3"/>
+                                    <note dur="semibrevis" pname="f" oct="3"/>
+                                    <note dur="semibrevis" pname="f" oct="3"/>
+                                    <note dur="minima" pname="g" oct="3" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semiminima" pname="a" oct="3"/>
+                                    <note dur="brevis" pname="b" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="d" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="b" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="c" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="c" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="g" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="b" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="c" oct="4"/>
+                                    <note dur="semibrevis" pname="c" oct="4"/>
+                                    <note dur="brevis" pname="b" oct="3"/>
+                                    <note dur="semibrevis" pname="c" oct="4"/>
+                                    <note dur="brevis" pname="c" oct="4" fermata="above"/>
+                                    <custos pname="a" oct="3"/>
+                                </layer>
+                            </staff>
+                        </system>
+                        <system n="2">
+                            <staff>
+                                <layer>
+                                    <clef shape="C" line="4"/>
+                                    <keySig>
+                                        <keyAccid accid="f" loc="5" pname="b" oct="3"/>
+                                    </keySig>
+                                    <note dur="brevis" pname="a" oct="3"/>
+                                    <note dur="semibrevis" pname="g" oct="3"/>
+                                    <note dur="semibrevis" pname="g" oct="3"/>
+                                    <note dur="brevis" pname="d" oct="4"/>
+                                    <note dur="brevis" pname="c" oct="4"/>
+                                    <note dur="brevis" pname="b" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="d" oct="4"/>
+                                    <note dur="semibrevis" pname="g" oct="3"/>
+                                    <note dur="semibrevis" pname="a" oct="3"/>
+                                    <note dur="brevis" pname="b" oct="3" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semibrevis" pname="c" oct="4"/>
+                                    <note dur="brevis" pname="c" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="d" oct="4"/>
+                                    <note dur="semibrevis" pname="c" oct="4"/>
+                                    <note dur="semibrevis" pname="b" oct="3"/>
+                                    <note dur="brevis" pname="c" oct="4"/>
+                                    <note dur="brevis" pname="b" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="d" oct="4"/>
+                                    <note dur="semibrevis" pname="c" oct="4"/>
+                                    <note dur="semibrevis" pname="b" oct="3"/>
+                                    <note dur="brevis" pname="a" oct="3" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semibrevis" pname="g" oct="3"/>
+                                    <note dur="longa" pname="g" oct="3"/>
+                                    <barLine rend="single"/>
+                                    <note dur="semibrevis" pname="b" oct="3"/>
+                                    <note dur="minima" pname="b" oct="3"/>
+                                    <note dur="minima" pname="b" oct="3"/>
+                                    <note dur="semibrevis" pname="a" oct="3" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="minima" pname="a" oct="3"/>
+                                    <custos pname="b" oct="3"/>
+                                </layer>
+                            </staff>
+                        </system>
+                        <system n="3">
+                            <staff>
+                                <layer>
+                                    <clef shape="C" line="4"/>
+                                    <keySig>
+                                        <keyAccid accid="f" loc="5" pname="b" oct="3"/>
+                                    </keySig>
+                                    <note dur="minima" pname="b" oct="3" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semiminima" pname="a" oct="3"/>
+                                    <note dur="minima" pname="g" oct="3"/>
+                                    <note dur="minima" pname="f" oct="3"/>
+                                    <note dur="brevis" pname="g" oct="3"/>
+                                    <rest dur="longa"/>
+                                    <rest dur="brevis"/>
+                                    <rest dur="semibrevis"/>
+                                    <rest dur="minima"/>
+                                    <note dur="minima" pname="d" oct="4"/>
+                                    <note dur="minima" pname="d" oct="4"/>
+                                    <note dur="minima" pname="d" oct="4"/>
+                                    <note dur="minima" pname="d" oct="4"/>
+                                    <note dur="minima" pname="d" oct="4"/>
+                                    <note dur="semibrevis" pname="d" oct="4"/>
+                                    <note dur="semibrevis" pname="g" oct="3"/>
+                                    <note dur="semibrevis" pname="a" oct="3"/>
+                                    <rest dur="semibrevis"/>
+                                    <note dur="brevis" pname="g" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="b" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="c" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="a" oct="3" fermata="above"/>
+                                    <proport mse:affected="semibrevis" altsym="#Proportion_3" num="2" numbase="3" label="sesquialtera"/>
+                                    <note dur="semibrevis" pname="b" oct="3"/>
+                                    <note dur="semibrevis" pname="b" oct="3"/>
+                                    <note dur="semibrevis" pname="b" oct="3"/>
+                                    <note dur="semibrevis" pname="c" oct="4" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="minima" pname="b" oct="3"/>
+                                    <note dur="semibrevis" pname="a" oct="3"/>
+                                    <note dur="semibrevis" pname="g" oct="3"/>
+                                    <note dur="semibrevis" pname="g" oct="3"/>
+                                    <note dur="semibrevis" pname="f" oct="3"/>
+                                    <unclear reason="rest after system" cert="high">
+                                        <note dur="brevis" pname="g" oct="3" num="2" numbase="3"/>
+                                        <rest dur="semibrevis"/>
+                                    </unclear>
+                                    <custos pname="d" oct="4"/>
+                                </layer>
+                            </staff>
+                        </system>
+                        <system n="4">
+                            <staff>
+                                <layer>
+                                    <clef shape="C" line="4"/>
+                                    <keySig>
+                                        <keyAccid accid="f" loc="5" pname="b" oct="3"/>
+                                    </keySig>
+                                    <note dur="semibrevis" pname="d" oct="4"/>
+                                    <note dur="semibrevis" pname="d" oct="4"/>
+                                    <note dur="semibrevis" pname="d" oct="4"/>
+                                    <note dur="semibrevis" pname="e" oct="4" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="minima" pname="d" oct="4"/>
+                                    <note dur="semibrevis" pname="c" oct="4"/>
+                                    <note dur="semibrevis" pname="b" oct="3"/>
+                                    <note dur="semibrevis" pname="g" oct="3"/>
+                                    <note dur="semibrevis" pname="a" oct="3"/>
+                                    <note dur="brevis" pname="g" oct="3" num="2" numbase="3"/>
+                                    <note dur="semibrevis" pname="d" oct="4"/>
+                                    <ligature form="obliqua">
+                                        <note dur="semibrevis" pname="d" oct="4"/>
+                                        <note dur="semibrevis" pname="b" oct="3"/>
+                                    </ligature>
+                                    <note dur="semibrevis" pname="c" oct="4"/>
+                                    <ligature form="recta">
+                                        <note dur="semibrevis" pname="d" oct="4"/>
+                                        <note dur="semibrevis" pname="f" oct="4"/>
+                                    </ligature>
+                                    <note dur="semibrevis" pname="e" oct="4"/>
+                                    <ligature form="obliqua">
+                                        <note dur="semibrevis" pname="d" oct="4"/>
+                                        <note dur="semibrevis" pname="b" oct="3"/>
+                                    </ligature>
+                                    <note dur="semibrevis" pname="c" oct="4"/>
+                                    <note dur="brevis" pname="d" oct="4" fermata="below" num="2" numbase="3"/>
+                                    <rest dur="semibrevis"/>
+                                    <note dur="brevis" pname="b" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="c" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="a" oct="4" fermata="above"/>
+                                    <note dur="longa" pname="g" oct="3"/>
+                                    <barLine rend="dbl"/>
+                                </layer>
+                            </staff>
+                        </system>
+                    </mse:panel>
+                </page>
+                <page n="156r">
+                    <mse:panel n="3" type="part">
+                        <system n="1">
+                            <staff>
+                                <layer>
+                                    <clef shape="C" line="3"/>
+                                    <keySig>
+                                        <keyAccid accid="f" loc="3" pname="b" oct="3"/>
+                                    </keySig>
+                                    <mensur altsym="#Mensur_Ccut" sign="C" slash="1" tempus="2" prolatio="2" numbase="1" num="2"/>
+                                    <note dur="brevis" pname="d" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="d" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="f" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="e" oct="4" fermata="above"/>
+                                    <note dur="semibrevis" pname="e" oct="4"/>
+                                    <note dur="semibrevis" pname="e" oct="4"/>
+                                    <note dur="semibrevis" pname="f" oct="4"/>
+                                    <note dur="semibrevis" pname="c" oct="4"/>
+                                    <note dur="minima" pname="d" oct="4"/>
+                                    <note dur="minima" pname="b" oct="3"/>
+                                    <note dur="semibrevis" pname="c" oct="4"/>
+                                    <note dur="brevis" pname="f" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="g" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="d" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="f" oct="4" fermata="above"/>
+                                    <accid accid="f" ploc="e" oloc="4" mse:accidPos="before"/>
+                                    <note dur="brevis" pname="e" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="e" oct="4" fermata="above" accid.ges="f"/>
+                                    <note dur="brevis" pname="d" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="f" oct="4"/>
+                                    <note dur="semibrevis" pname="f" oct="4"/>
+                                    <note dur="brevis" pname="d" oct="4"/>
+                                    <note dur="semibrevis" pname="e" oct="4"/>
+                                    <note dur="brevis" pname="e" oct="4" fermata="above"/>
+                                    <custos pname="d" oct="4"/>
+                                </layer>
+                            </staff>
+                        </system>
+                        <system n="2">
+                            <staff>
+                                <layer>
+                                    <clef shape="C" line="3"/>
+                                    <note dur="brevis" pname="d" oct="4"/>
+                                    <note dur="semibrevis" pname="b" oct="4"/>
+                                    <note dur="semibrevis" pname="b" oct="4"/>
+                                    <note dur="brevis" pname="b" oct="3"/>
+                                    <note dur="brevis" pname="g" oct="3"/>
+                                    <note dur="brevis" pname="g" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="a" oct="3"/>
+                                    <note dur="semibrevis" pname="c" oct="4"/>
+                                    <note dur="semibrevis" pname="d" oct="4"/>
+                                    <note dur="semibrevis" pname="d" oct="4" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="minima" pname="c" oct="4"/>
+                                    <note dur="semibrevis" pname="d" oct="4"/>
+                                    <note dur="minima" pname="f" oct="4" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semiminima" pname="e" oct="4"/>
+                                    <note dur="brevis" pname="f" oct="4" fermata="below"/>
+                                    <note dur="brevis" pname="f" oct="4"/>
+                                    <note dur="semibrevis" pname="f" oct="4"/>
+                                    <note dur="semibrevis" pname="e" oct="4"/>
+                                    <note dur="brevis" pname="f" oct="4"/>
+                                    <note dur="brevis" pname="d" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="f" oct="4"/>
+                                    <note dur="semibrevis" pname="f" oct="4"/>
+                                    <note dur="semibrevis" pname="e" oct="4"/>
+                                    <note dur="brevis" pname="d" oct="4" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semibrevis" pname="b" oct="3"/>
+                                    <note dur="longa" pname="d" oct="4"/>
+                                    <barLine rend="single"/>
+                                </layer>
+                            </staff>
+                        </system>
+                        <system n="3">
+                            <staff>
+                                <layer>
+                                    <clef shape="C" line="3"/>
+                                    <mensur altsym="#Mensur_Ccut" sign="C" slash="1" tempus="2" prolatio="2" numbase="1" num="2"/>
+                                    <rest dur="maxima"/>
+                                    <note dur="semibrevis" pname="g" oct="4"/>
+                                    <note dur="minima" pname="d" oct="4"/>
+                                    <note dur="minima" pname="e" oct="4"/>
+                                    <note dur="minima" pname="f" oct="4" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semiminima" pname="e" oct="4"/>
+                                    <note dur="minima" pname="d" oct="4"/>
+                                    <note dur="minima" pname="c" oct="4"/>
+                                    <note dur="minima" pname="b" oct="3" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semiminima" pname="c" oct="4"/>
+                                    <note dur="minima" pname="b" oct="3"/>
+                                    <note dur="minima" pname="a" oct="3"/>
+                                    <note dur="semibrevis" pname="g" oct="3"/>
+                                    <rest dur="minima"/>
+                                    <note dur="minima" pname="g" oct="4"/>
+                                    <note dur="minima" pname="g" oct="4"/>
+                                    <note dur="minima" pname="g" oct="4"/>
+                                    <note dur="minima" pname="g" oct="4"/>
+                                    <note dur="minima" pname="g" oct="4"/>
+                                    <note dur="semiminima" pname="f" oct="4"/>
+                                    <note dur="semiminima" pname="e" oct="4"/>
+                                    <note dur="semiminima" pname="d" oct="4"/>
+                                    <note dur="semiminima" pname="c" oct="4"/>
+                                    <note dur="minima" pname="b" oct="3"/>
+                                    <note dur="minima" pname="c" oct="4"/>
+                                    <note dur="semibrevis" pname="d" oct="4"/>
+                                    <rest dur="semibrevis"/>
+                                    <note dur="brevis" pname="d" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="g" oct="4" fermata="below"/>
+                                    <note dur="brevis" pname="g" oct="4" fermata="below"/>
+                                    <note dur="brevis" pname="f" oct="4" fermata="below"/>
+                                </layer>
+                            </staff>
+                        </system>
+                        <system n="4">
+                            <staff>
+                                <layer>
+                                    <clef shape="C" line="3"/>
+                                    <proport altsym="#Proportion_3" mse:affected="semibrevis" num="2" numbase="3" label="sesquialtera"/>
+                                    <rest dur="maxima"/>
+                                    <note dur="semibrevis" pname="f" oct="4"/>
+                                    <note dur="semibrevis" pname="f" oct="4"/>
+                                    <note dur="semibrevis" pname="f" oct="4"/>
+                                    <note dur="semibrevis" pname="g" oct="4" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="minima" pname="f" oct="4"/>
+                                    <note dur="semibrevis" pname="e" oct="4"/>
+                                    <note dur="semibrevis" pname="d" oct="4"/>
+                                    <note dur="semibrevis" pname="d" oct="4"/>
+                                    <note dur="semibrevis" pname="c" oct="4"/>
+                                    <note dur="brevis" pname="d" oct="4" num="2" numbase="3"/>
+                                    <note dur="semibrevis" pname="b" oct="3"/>
+                                    <ligature form="obliqua">
+                                        <note dur="semibrevis" pname="f" oct="4"/>
+                                        <note dur="semibrevis" pname="d" oct="4"/>
+                                    </ligature>
+                                    <note dur="semibrevis" pname="e" oct="4"/>
+                                    <ligature form="obliqua">
+                                        <note dur="semibrevis" pname="f" oct="4"/>
+                                        <note dur="semibrevis" pname="d" oct="4"/>
+                                    </ligature>
+                                    <note dur="semibrevis" pname="e" oct="4"/>
+                                    <ligature form="obliqua">
+                                        <note dur="semibrevis" pname="f" oct="4"/>
+                                        <note dur="semibrevis" pname="d" oct="4"/>
+                                    </ligature>
+                                    <note dur="semibrevis" pname="e" oct="4"/>
+                                    <chord label="divisi">
+                                        <note dur="brevis" pname="f" oct="4" color="black"
+                                            fermata="above" num="2" numbase="3"/>
+                                        <note dur="brevis" pname="a" oct="3" num="2" numbase="3"/>
+                                    </chord>
+                                    <chord label="divisi">
+                                        <sic>
+                                            <rest dur="semibrevis" ploc="f" oloc="4"/>
+                                            <rest dur="semibrevis" ploc="a" oloc="3"/>
+                                        </sic>
+                                    </chord>
+                                    <note dur="brevis" pname="d" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="e" oct="4" fermata="above"/>
+                                    <note dur="brevis" pname="d" oct="4" fermata="above"/>
+                                    <note dur="longa" pname="d" oct="4" fermata="above"/>
+                                    <barLine rend="dbl"/>
+                                </layer>
+                            </staff>
+                        </system>
+                    </mse:panel>
+                    <mse:panel n="4" type="part">
+                        <system n="1">
+                            <staff>
+                                <layer>
+                                    <clef shape="F" line="4"/>
+                                    <mensur altsym="#Mensur_Ccut" sign="C" slash="1" tempus="2" prolatio="2" numbase="1" num="2"/>
+                                    <note dur="brevis" pname="g" oct="2" fermata="above"/>
+                                    <note dur="brevis" pname="g" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="f" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="c" oct="3" fermata="above"/>
+                                    <note dur="semibrevis" pname="c" oct="3"/>
+                                    <note dur="semibrevis" pname="c" oct="3"/>
+                                    <note dur="semibrevis" pname="f" oct="3" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="minima" pname="e" oct="3"/>
+                                    <note dur="semibrevis" pname="d" oct="3"/>
+                                    <note dur="semibrevis" pname="c" oct="3"/>
+                                    <note dur="brevis" pname="b" oct="2" fermata="above"/>
+                                    <note dur="brevis" pname="g" oct="2" fermata="above"/>
+                                    <note dur="brevis" pname="g" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="f" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="c" oct="3" fermata="above"/>
+                                    <accid accid="f" ploc="e" oloc="3" mse:accidPos="before"/>
+                                    <note dur="brevis" pname="e" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="b" oct="2" fermata="above"/>
+                                    <note dur="brevis" pname="f" oct="3"/>
+                                    <note dur="semibrevis" pname="f" oct="3"/>
+                                    <custos pname="g" oct="3"/>
+                                </layer>
+                            </staff>
+                        </system>
+                        <system n="2">
+                            <staff>
+                                <layer>
+                                    <clef shape="F" line="4"/>
+                                    <note dur="brevis" pname="g" oct="3"/>
+                                    <note dur="semibrevis" pname="c" oct="3"/>
+                                    <note dur="brevis" pname="c" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="d" oct="3"/>
+                                    <accid accid="f" ploc="e" oloc="3" mse:accidPos="before"/>
+                                    <note dur="semibrevis" pname="e" oct="3"/>
+                                    <note dur="semibrevis" pname="e" oct="3" accid.ges="f"/>
+                                    <note dur="brevis" pname="b" oct="2"/>
+                                    <note dur="brevis" pname="c" oct="3"/>
+                                    <note dur="brevis" pname="g" oct="2" fermata="above"/>
+                                    <note dur="brevis" pname="d" oct="3"/>
+                                    <note dur="semibrevis" pname="e" oct="3"/>
+                                    <note dur="semibrevis" pname="d" oct="3"/>
+                                    <note dur="brevis" pname="g" oct="3" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semibrevis" pname="f" oct="3"/>
+                                    <note dur="brevis" pname="f" oct="3" fermata="below"/>
+                                    <note dur="brevis" pname="b" oct="2"/>
+                                    <note dur="semibrevis" pname="f" oct="3"/>
+                                    <note dur="semibrevis" pname="g" oct="3"/>
+                                    <note dur="brevis" pname="f" oct="3"/>
+                                    <note dur="brevis" pname="b" oct="2" fermata="above"/>
+                                    <note dur="brevis" pname="b" oct="2"/>
+                                    <note dur="semibrevis" pname="f" oct="3"/>
+                                    <note dur="semibrevis" pname="g" oct="3"/>
+                                    <note dur="brevis" pname="d" oct="3" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semibrevis" pname="g" oct="2"/>
+                                    <note dur="longa" pname="g" oct="2"/>
+                                    <barLine rend="single"/>
+                                    <custos pname="g" oct="3"/>
+                                </layer>
+                            </staff>
+                        </system>
+                        <system n="3">
+                            <staff>
+                                <layer>
+                                    <clef shape="F" line="4"/>
+                                    <note dur="semibrevis" pname="g" oct="3"/>
+                                    <note dur="minima" pname="d" oct="3"/>
+                                    <note dur="minima" pname="e" oct="3"/>
+                                    <note dur="minima" pname="f" oct="3" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semiminima" pname="e" oct="3"/>
+                                    <note dur="minima" pname="d" oct="3"/>
+                                    <note dur="minima" pname="c" oct="3"/>
+                                    <note dur="minima" pname="b" oct="2" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="semiminima" pname="c" oct="3"/>
+                                    <note dur="minima" pname="b" oct="2"/>
+                                    <note dur="minima" pname="a" oct="2"/>
+                                    <note dur="brevis" pname="g" oct="2"/>
+                                    <rest dur="longa"/>
+                                    <rest dur="brevis"/>
+                                    <rest dur="semibrevis"/>
+                                    <rest dur="minima"/>
+                                    <note dur="minima" pname="g" oct="3"/>
+                                    <note dur="minima" pname="g" oct="3"/>
+                                    <note dur="minima" pname="g" oct="3"/>
+                                    <note dur="minima" pname="g" oct="3"/>
+                                    <note dur="minima" pname="g" oct="3"/>
+                                    <note dur="semibrevis" pname="d" oct="3"/>
+                                    <note dur="semibrevis" pname="e" oct="3"/>
+                                    <note dur="semibrevis" pname="d" oct="3"/>
+                                    <rest dur="semibrevis"/>
+                                    <note dur="brevis" pname="g" oct="3" fermata="below"/>
+                                    <note dur="brevis" pname="g" oct="3" fermata="below"/>
+                                    <note dur="brevis" pname="c" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="d" oct="3" fermata="above"/>
+                                    <custos pname="d" oct="3"/>
+                                </layer>
+                            </staff>
+                        </system>
+                        <system n="4">
+                            <staff>
+                                <layer>
+                                    <clef shape="F" line="4"/>
+                                    <keySig>
+                                        <keyAccid accid="f" loc="2" pname="b" oct="2"/>
+                                    </keySig>
+                                    <proport altsym="#Proportion_3" mse:affected="semibrevis" num="2" numbase="3" label="sesquialtera"/>
+                                    <note dur="semibrevis" pname="d" oct="3"/>
+                                    <note dur="semibrevis" pname="d" oct="3"/>
+                                    <note dur="semibrevis" pname="d" oct="3"/>
+                                    <note dur="semibrevis" pname="e" oct="3" num="3" numbase="2"/>
+                                    <dot form="aug"/>
+                                    <note dur="minima" pname="d" oct="3"/>
+                                    <note dur="semibrevis" pname="c" oct="3"/>
+                                    <note dur="semibrevis" pname="b" oct="2"/>
+                                    <note dur="semibrevis" pname="g" oct="2"/>
+                                    <note dur="semibrevis" pname="a" oct="2"/>
+                                    <note dur="brevis" pname="g" oct="2"/>
+                                    <rest dur="longa"/>
+                                    <rest dur="brevis"/>
+                                    <rest dur="semibrevis"/>
+                                    <rest dur="semibrevis"/>
+                                    <note dur="semibrevis" pname="g" oct="3"/>
+                                    <ligature form="recta">
+                                        <note dur="semibrevis" pname="f" oct="3"/>
+                                        <note dur="semibrevis" pname="g" oct="3"/>
+                                    </ligature>
+                                    <note dur="semibrevis" pname="e" oct="3"/>
+                                    <note dur="brevis" pname="d" oct="3" num="2" numbase="3"/>
+                                    <note dur="semibrevis" pname="c" oct="3"/>
+                                    <ligature form="recta">
+                                        <note dur="semibrevis" pname="f" oct="3"/>
+                                        <note dur="semibrevis" pname="g" oct="3"/>
+                                    </ligature>
+                                    <note dur="semibrevis" pname="e" oct="3"/>
+                                    <note dur="brevis" pname="d" oct="3" fermata="above" num="2" numbase="3"/>
+                                    <rest dur="semibrevis"/>
+                                    <note dur="brevis" pname="g" oct="3" fermata="below"/>
+                                    <note dur="brevis" pname="c" oct="3" fermata="above"/>
+                                    <note dur="brevis" pname="d" oct="3" fermata="above"/>
+                                    <note dur="maxima" pname="g" oct="2"/>
+                                    <barLine rend="dbl"/>
+                                </layer>
+                            </staff>
+                        </system>
+                    </mse:panel>
+                </page>
+            </pages>
+        </mdiv>
+    </body>
+</music>

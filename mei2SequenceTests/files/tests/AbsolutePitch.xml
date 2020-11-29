@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href='../mei-Mensural_sourceEncoding.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?>
+<?xml-model href="../mei-Mensural_sourceEncoding.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<music xmlns="http://www.music-encoding.org/ns/mei"
+    xmlns:mse="http://github.com/annplaksin/mensural_sourceEncoding" meiversion="2013"
+    meiversion.num="2.1.1">
+    <body>
+        <mdiv n="Ligatures" type="section">
+            <pages>
+                <page n="155v">
+                    <mse:panel label="AbsolutePitch" n="1" type="part">
+                        <system n="1">
+                            <staff>
+                                <layer>
+                                    <clef shape="C" line="3"/>
+                                    <keySig>
+                                        <keyAccid accid="f" pname="b" oct="4"/>
+                                        <keyAccid accid="n" pname="c" oct="4"/>
+                                        <keyAccid accid="f" pname="b" oct="2"/>
+                                    </keySig>
+                                    <mensur altsym="#Mensur_Ccut" sign="C" slash="1" tempus="2" prolatio="2" numbase="1" num="2"/>
+                                    <note dur="brevis" pname="f" oct="3" pnum="139"/>
+                                    <accid accid="n" ploc="g" oloc="3"/>
+                                    <note dur="brevis" pname="g" oct="3" pnum="145"/>
+                                    <accid accid="f" oloc="3" ploc="b"/>
+                                    <note dur="brevis" pname="a" oct="3" pnum="151"/>
+                                    <note dur="brevis" pname="b" oct="3" pnum="157"/>
+                                    <note dur="brevis" pname="c" oct="4" pnum="162"/>
+                                    <note dur="brevis" pname="d" oct="4" pnum="168"/>
+                                    <accid accid="f" ploc="e" oloc="4"/>
+                                    <note dur="brevis" pname="e" oct="4" pnum="173"/>
+                                    <accid accid="s" ploc="f" oloc="4" mse:accidPos="above"/>
+                                    <note dur="brevis" pname="f" oct="4" pnum="180"/>
+                                    <note dur="brevis" pname="g" oct="4" pnum="185"/>
+                                    <note dur="brevis" pname="f" oct="3" pnum="139"/>
+                                    <note dur="brevis" pname="g" oct="3" pnum="145"/>
+                                    <note dur="brevis" pname="a" oct="3" pnum="151"/>
+                                    <accid accid="f" oloc="3" ploc="b"/>
+                                    <note dur="brevis" pname="b" oct="3" pnum="156"/>
+                                    <note dur="brevis" pname="b" oct="3" pnum="157"/>
+                                    <note dur="brevis" pname="c" oct="4" pnum="162"/>
+                                    <accid accid="f" ploc="e" oloc="4"/>
+                                    <note dur="brevis" pname="e" oct="4" pnum="173"/>
+                                    <note dur="brevis" pname="d" oct="4" pnum="168"/>
+                                    <note dur="brevis" pname="e" oct="4" accid.ges="f" pnum="173"/>
+                                    <note dur="brevis" pname="f" oct="4" pnum="179"/>
+                                    <accid accid="s" mse:accidPos="below" ploc="g" oloc="4"/>
+                                    <note dur="brevis" pname="g" oct="4" pnum="186"/>
+                                    <note dur="brevis" pname="a" oct="4" pnum="191"/>
+                                    <note dur="brevis" pname="b" oct="4" pnum="196"/>
+                                    <accid accid="n" mse:accidPos="above" ploc="b" oloc="4"/>
+                                    <note dur="brevis" pname="b" oct="4" pnum="197"/>
+                                    <note dur="brevis" pname="b" oct="4" pnum="196"/>
+                                    <note dur="brevis" pname="a" oct="4" pnum="191"/>
+                                    <note dur="brevis" pname="g" oct="4" pnum="185"/>
+                                    <note dur="brevis" pname="d" oct="4" pnum="168"/>
+                                    <note dur="brevis" pname="e" oct="4" pnum="174"/>
+                                    <barLine rend="dbl"/>
+                                </layer>
+                            </staff>
+                        </system>
+                    </mse:panel>
+                </page>
+            </pages>
+        </mdiv>
+    </body>
+</music>
