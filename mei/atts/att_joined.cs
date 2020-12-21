@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "join");
     }
-
+    
     public static string GetJoinValue(this IAttJoined e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "join");
     }
-
+    
     public static bool HasJoin(this IAttJoined e)
     {
       return MeiAtt_controller.HasAttribute(e, "join");

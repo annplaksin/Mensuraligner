@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "x2");
     }
-
+    
     public static string GetX2Value(this IAttXy2 e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "x2");
     }
-
+    
     public static bool HasX2(this IAttXy2 e)
     {
       return MeiAtt_controller.HasAttribute(e, "x2");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "y2");
     }
-
+    
     public static string GetY2Value(this IAttXy2 e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "y2");
     }
-
+    
     public static bool HasY2(this IAttXy2 e)
     {
       return MeiAtt_controller.HasAttribute(e, "y2");

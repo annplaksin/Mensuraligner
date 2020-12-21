@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
   /// Interface for att.verse.vis
   /// </summary>
-  public interface IAttVerseVis : IMEiAtt, IAttTypography, IAttVisualoffsetTo, IAttVisualoffsetVo, IAttXy
+  public interface IAttVerseVis : IMEiAtt, IAttColor, IAttTypography, IAttVisualoffsetTo, IAttVisualoffsetVo, IAttXy
   {
 
   }

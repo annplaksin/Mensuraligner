@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <handShift/>
     /// </summary>
-    public class HandShift : MeiElement, IAttCommon, IAttEdit, IAttResponsibility, IAttSource, IAttMedium
+    public class HandShift : MeiElement, IAttCommon, IAttCommonPart, IAttResponsibility, IAttSource, IAttEvidence, IAttMedium
     {
         
         public HandShift() : base("handShift") { }
@@ -45,12 +40,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "character");
     }
-
+    
     public string GetCharacterValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "character");
     }
-
+    
     public bool HasCharacter()
     {
       return MeiAtt_controller.HasAttribute(this, "character");
@@ -73,12 +68,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "new");
     }
-
+    
     public string GetNewValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "new");
     }
-
+    
     public bool HasNew()
     {
       return MeiAtt_controller.HasAttribute(this, "new");
@@ -101,12 +96,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "old");
     }
-
+    
     public string GetOldValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "old");
     }
-
+    
     public bool HasOld()
     {
       return MeiAtt_controller.HasAttribute(this, "old");

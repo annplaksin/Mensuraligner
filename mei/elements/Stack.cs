@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <stack/>
     /// </summary>
-    public class Stack : MeiElement, IAttCommon, IAttLang
+    public class Stack : MeiElement, IAttCommon, IAttCommonPart, IAttLang
     {
         
         public Stack() : base("stack") { }
@@ -45,12 +40,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "delim");
     }
-
+    
     public string GetDelimValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "delim");
     }
-
+    
     public bool HasDelim()
     {
       return MeiAtt_controller.HasAttribute(this, "delim");
@@ -73,12 +68,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "align");
     }
-
+    
     public string GetAlignValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "align");
     }
-
+    
     public bool HasAlign()
     {
       return MeiAtt_controller.HasAttribute(this, "align");

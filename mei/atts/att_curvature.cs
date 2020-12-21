@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "bezier");
     }
-
+    
     public static string GetBezierValue(this IAttCurvature e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "bezier");
     }
-
+    
     public static bool HasBezier(this IAttCurvature e)
     {
       return MeiAtt_controller.HasAttribute(e, "bezier");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "bulge");
     }
-
+    
     public static string GetBulgeValue(this IAttCurvature e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "bulge");
     }
-
+    
     public static bool HasBulge(this IAttCurvature e)
     {
       return MeiAtt_controller.HasAttribute(e, "bulge");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "curvedir");
     }
-
+    
     public static string GetCurvedirValue(this IAttCurvature e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "curvedir");
     }
-
+    
     public static bool HasCurvedir(this IAttCurvature e)
     {
       return MeiAtt_controller.HasAttribute(e, "curvedir");

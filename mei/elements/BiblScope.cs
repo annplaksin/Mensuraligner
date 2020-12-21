@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <biblScope/>
     /// </summary>
-    public class BiblScope : MeiElement, IAttCommon, IAttBibl, IAttMeasurement
+    public class BiblScope : MeiElement, IAttCommon, IAttCommonPart, IAttBibl, IAttLang, IAttMeasurement
     {
         
         public BiblScope() : base("biblScope") { }

@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <composer/>
     /// </summary>
-    public class Composer : MeiElement, IAttCommon, IAttBibl, IAttTyped
+    public class Composer : MeiElement, IAttCommon, IAttCommonPart, IAttBibl, IAttLang, IAttTyped
     {
         
         public Composer() : base("composer") { }

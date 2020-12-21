@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <geogName/>
     /// </summary>
-    public class GeogName : MeiElement, IAttBibl, IAttCommon, IAttEdit, IAttResponsibility, IAttSource, IAttLang, IAttName, IAttAuthorized, IAttCanonical, IAttTyped
+    public class GeogName : MeiElement, IAttBibl, IAttCommon, IAttCommonPart, IAttResponsibility, IAttSource, IAttEvidence, IAttLang, IAttName, IAttAuthorized, IAttCanonical, IAttDatable, IAttFiling, IAttTyped
     {
         
         public GeogName() : base("geogName") { }

@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "mensur.dot");
     }
-
+    
     public static string GetMensurDotValue(this IAttMensuralLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "mensur.dot");
     }
-
+    
     public static bool HasMensurDot(this IAttMensuralLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "mensur.dot");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "mensur.sign");
     }
-
+    
     public static string GetMensurSignValue(this IAttMensuralLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "mensur.sign");
     }
-
+    
     public static bool HasMensurSign(this IAttMensuralLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "mensur.sign");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "mensur.slash");
     }
-
+    
     public static string GetMensurSlashValue(this IAttMensuralLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "mensur.slash");
     }
-
+    
     public static bool HasMensurSlash(this IAttMensuralLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "mensur.slash");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "proport.num");
     }
-
+    
     public static string GetProportNumValue(this IAttMensuralLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "proport.num");
     }
-
+    
     public static bool HasProportNum(this IAttMensuralLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "proport.num");
@@ -158,12 +153,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "proport.numbase");
     }
-
+    
     public static string GetProportNumbaseValue(this IAttMensuralLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "proport.numbase");
     }
-
+    
     public static bool HasProportNumbase(this IAttMensuralLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "proport.numbase");

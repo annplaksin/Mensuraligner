@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "clef.shape");
     }
-
+    
     public static string GetClefShapeValue(this IAttCleffingLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "clef.shape");
     }
-
+    
     public static bool HasClefShape(this IAttCleffingLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "clef.shape");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "clef.line");
     }
-
+    
     public static string GetClefLineValue(this IAttCleffingLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "clef.line");
     }
-
+    
     public static bool HasClefLine(this IAttCleffingLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "clef.line");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "clef.dis");
     }
-
+    
     public static string GetClefDisValue(this IAttCleffingLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "clef.dis");
     }
-
+    
     public static bool HasClefDis(this IAttCleffingLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "clef.dis");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "clef.dis.place");
     }
-
+    
     public static string GetClefDisPlaceValue(this IAttCleffingLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "clef.dis.place");
     }
-
+    
     public static bool HasClefDisPlace(this IAttCleffingLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "clef.dis.place");

@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -47,12 +42,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "accidPos", ns_accidPos);
     }
-
+    
     public static string GetAccidPosValue(this IAttAccidPos e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "accidPos", ns_accidPos);
     }
-
+    
     public static bool HasAccidPos(this IAttAccidPos e)
     {
       return MeiAtt_controller.HasAttribute(e, "accidPos", ns_accidPos);

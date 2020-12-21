@@ -14,24 +14,19 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
-    /// <fw/>
+    /// <bloc/>
     /// </summary>
-    public class Fw : MeiElement, IAttCommon, IAttLang, IAttTyped
+    public class Bloc : MeiElement, IAttBibl, IAttCommon, IAttCommonPart, IAttResponsibility, IAttSource, IAttEvidence, IAttLang, IAttName, IAttAuthorized, IAttCanonical, IAttDatable, IAttFiling, IAttTyped
     {
         
-        public Fw() : base("fw") { }
+        public Bloc() : base("bloc") { }
 
-        public Fw(object _content) : base("fw", _content) { }
+        public Bloc(object _content) : base("bloc", _content) { }
 
-        public Fw(params object[] _content) : base("fw", _content) { }
+        public Bloc(params object[] _content) : base("bloc", _content) { }
 
 
         

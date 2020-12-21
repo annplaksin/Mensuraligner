@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "tstamp.ges");
     }
-
+    
     public static string GetTstampGesValue(this IAttTimestampPerformed e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "tstamp.ges");
     }
-
+    
     public static bool HasTstampGes(this IAttTimestampPerformed e)
     {
       return MeiAtt_controller.HasAttribute(e, "tstamp.ges");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "tstamp.real");
     }
-
+    
     public static string GetTstampRealValue(this IAttTimestampPerformed e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "tstamp.real");
     }
-
+    
     public static bool HasTstampReal(this IAttTimestampPerformed e)
     {
       return MeiAtt_controller.HasAttribute(e, "tstamp.real");

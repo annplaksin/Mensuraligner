@@ -14,24 +14,19 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
-    /// <instrVoice/>
+    /// <perfRes/>
     /// </summary>
-    public class InstrVoice : MeiElement, IAttCommon, IAttAuthorized, IAttBibl, IAttCoded
+    public class PerfRes : MeiElement, IAttCommon, IAttCommonPart, IAttAuthorized, IAttBibl, IAttCanonical, IAttResponsibility, IAttSource, IAttEvidence, IAttLang
     {
         
-        public InstrVoice() : base("instrVoice") { }
+        public PerfRes() : base("perfRes") { }
 
-        public InstrVoice(object _content) : base("instrVoice", _content) { }
+        public PerfRes(object _content) : base("perfRes", _content) { }
 
-        public InstrVoice(params object[] _content) : base("instrVoice", _content) { }
+        public PerfRes(params object[] _content) : base("perfRes", _content) { }
 
 
         #region count
@@ -45,12 +40,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "count");
     }
-
+    
     public string GetCountValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "count");
     }
-
+    
     public bool HasCount()
     {
       return MeiAtt_controller.HasAttribute(this, "count");
@@ -73,12 +68,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "solo");
     }
-
+    
     public string GetSoloValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "solo");
     }
-
+    
     public bool HasSolo()
     {
       return MeiAtt_controller.HasAttribute(this, "solo");

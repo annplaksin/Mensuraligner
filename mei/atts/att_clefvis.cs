@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
   /// Interface for att.clef.vis
   /// </summary>
-  public interface IAttClefVis : IMEiAtt, IAttAltsym, IAttColor
+  public interface IAttClefVis : IMEiAtt, IAttAltsym, IAttColor, IAttTypography
   {
 
   }

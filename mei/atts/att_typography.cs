@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "fontfam");
     }
-
+    
     public static string GetFontfamValue(this IAttTypography e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "fontfam");
     }
-
+    
     public static bool HasFontfam(this IAttTypography e)
     {
       return MeiAtt_controller.HasAttribute(e, "fontfam");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "fontname");
     }
-
+    
     public static string GetFontnameValue(this IAttTypography e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "fontname");
     }
-
+    
     public static bool HasFontname(this IAttTypography e)
     {
       return MeiAtt_controller.HasAttribute(e, "fontname");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "fontsize");
     }
-
+    
     public static string GetFontsizeValue(this IAttTypography e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "fontsize");
     }
-
+    
     public static bool HasFontsize(this IAttTypography e)
     {
       return MeiAtt_controller.HasAttribute(e, "fontsize");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "fontstyle");
     }
-
+    
     public static string GetFontstyleValue(this IAttTypography e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "fontstyle");
     }
-
+    
     public static bool HasFontstyle(this IAttTypography e)
     {
       return MeiAtt_controller.HasAttribute(e, "fontstyle");
@@ -158,12 +153,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "fontweight");
     }
-
+    
     public static string GetFontweightValue(this IAttTypography e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "fontweight");
     }
-
+    
     public static bool HasFontweight(this IAttTypography e)
     {
       return MeiAtt_controller.HasAttribute(e, "fontweight");

@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <note/>
     /// </summary>
-    public class Note : MeiElement, IAttCommon, IAttTimestampMusical, IAttTimestampPerformed, IAttStaffident, IAttLayerident, IAttDurationMusical, IAttFermatapresent, IAttPitch, IAttOctave, IAttNoteLogMensural, IAttNoteVis, IAttAltsym, IAttColor, IAttColoration, IAttEnclosingchars, IAttRelativesize, IAttStaffloc, IAttStemmed, IAttVisibility, IAttVisualoffsetHo, IAttVisualoffsetTo, IAttXy, IAttNoteGes, IAttAccidentalPerformed, IAttDurationRatio, IAttCommonAnl
+    public class Note : MeiElement, IAttCommon, IAttCommonPart, IAttTimestampMusical, IAttTimestampPerformed, IAttStaffident, IAttLayerident, IAttDurationMusical, IAttFermatapresent, IAttPitch, IAttOctave, IAttNoteLogMensural, IAttAltsym, IAttColor, IAttColoration, IAttEnclosingchars, IAttNoteheads, IAttRelativesize, IAttStaffloc, IAttStems, IAttTypography, IAttVisibility, IAttVisualoffsetHo, IAttVisualoffsetTo, IAttXy, IAttNoteGes, IAttAccidentalPerformed, IAttDurationRatio, IAttCommonAnl
     {
         
         public Note() : base("note") { }

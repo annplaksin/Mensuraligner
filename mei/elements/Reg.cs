@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <reg/>
     /// </summary>
-    public class Reg : MeiElement, IAttCommon, IAttAuthorized, IAttEdit, IAttResponsibility, IAttSource
+    public class Reg : MeiElement, IAttCommon, IAttCommonPart, IAttAuthorized, IAttResponsibility, IAttSource, IAttEvidence, IAttLang
     {
         
         public Reg() : base("reg") { }

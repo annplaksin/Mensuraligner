@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
   /// Interface for att.mensur.vis
   /// </summary>
-  public interface IAttMensurVis : IMEiAtt, IAttColor, IAttRelativesize, IAttStaffloc
+  public interface IAttMensurVis : IMEiAtt, IAttAltsym, IAttColor, IAttRelativesize, IAttStaffloc, IAttTypography
   {
 
   }
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "form");
     }
-
+    
     public static string GetFormValue(this IAttMensurVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "form");
     }
-
+    
     public static bool HasForm(this IAttMensurVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "form");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "orient");
     }
-
+    
     public static string GetOrientValue(this IAttMensurVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "orient");
     }
-
+    
     public static bool HasOrient(this IAttMensurVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "orient");

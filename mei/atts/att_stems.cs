@@ -14,50 +14,45 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
-  /// Interface for att.stemmed
+  /// Interface for att.stems
   /// </summary>
-  public interface IAttStemmed : IMEiAtt
+  public interface IAttStems : IMEiAtt
   {
 
   }
 
 
     /// <summary>
-  /// Extension methods for att.stemmed
+  /// Extension methods for att.stems
   /// </summary>
-  public static class AttStemmed_extensions
+  public static class AttStems_extensions
   {
     #region stem.dir
     
-    public static void SetStemDir(this IAttStemmed e, string _val)
+    public static void SetStemDir(this IAttStems e, string _val)
     {
       MeiAtt_controller.SetAttribute(e, "stem.dir", _val);
     }
 
-    public static XAttribute GetStemDirAttribute(this IAttStemmed e)
+    public static XAttribute GetStemDirAttribute(this IAttStems e)
     {
       return MeiAtt_controller.GetAttribute(e, "stem.dir");
     }
-
-    public static string GetStemDirValue(this IAttStemmed e)
+    
+    public static string GetStemDirValue(this IAttStems e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "stem.dir");
     }
-
-    public static bool HasStemDir(this IAttStemmed e)
+    
+    public static bool HasStemDir(this IAttStems e)
     {
       return MeiAtt_controller.HasAttribute(e, "stem.dir");
     }
 
-    public static void RemoveStemDir(this IAttStemmed e)
+    public static void RemoveStemDir(this IAttStems e)
     {
       MeiAtt_controller.RemoveAttribute(e, "stem.dir");
     }
@@ -65,55 +60,83 @@ namespace mei
 
     #region stem.len
     
-    public static void SetStemLen(this IAttStemmed e, string _val)
+    public static void SetStemLen(this IAttStems e, string _val)
     {
       MeiAtt_controller.SetAttribute(e, "stem.len", _val);
     }
 
-    public static XAttribute GetStemLenAttribute(this IAttStemmed e)
+    public static XAttribute GetStemLenAttribute(this IAttStems e)
     {
       return MeiAtt_controller.GetAttribute(e, "stem.len");
     }
-
-    public static string GetStemLenValue(this IAttStemmed e)
+    
+    public static string GetStemLenValue(this IAttStems e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "stem.len");
     }
-
-    public static bool HasStemLen(this IAttStemmed e)
+    
+    public static bool HasStemLen(this IAttStems e)
     {
       return MeiAtt_controller.HasAttribute(e, "stem.len");
     }
 
-    public static void RemoveStemLen(this IAttStemmed e)
+    public static void RemoveStemLen(this IAttStems e)
     {
       MeiAtt_controller.RemoveAttribute(e, "stem.len");
     }
     #endregion
 
+    #region stem.mod
+    
+    public static void SetStemMod(this IAttStems e, string _val)
+    {
+      MeiAtt_controller.SetAttribute(e, "stem.mod", _val);
+    }
+
+    public static XAttribute GetStemModAttribute(this IAttStems e)
+    {
+      return MeiAtt_controller.GetAttribute(e, "stem.mod");
+    }
+    
+    public static string GetStemModValue(this IAttStems e)
+    {
+      return MeiAtt_controller.GetAttributeValue(e, "stem.mod");
+    }
+    
+    public static bool HasStemMod(this IAttStems e)
+    {
+      return MeiAtt_controller.HasAttribute(e, "stem.mod");
+    }
+
+    public static void RemoveStemMod(this IAttStems e)
+    {
+      MeiAtt_controller.RemoveAttribute(e, "stem.mod");
+    }
+    #endregion
+
     #region stem.pos
     
-    public static void SetStemPos(this IAttStemmed e, string _val)
+    public static void SetStemPos(this IAttStems e, string _val)
     {
       MeiAtt_controller.SetAttribute(e, "stem.pos", _val);
     }
 
-    public static XAttribute GetStemPosAttribute(this IAttStemmed e)
+    public static XAttribute GetStemPosAttribute(this IAttStems e)
     {
       return MeiAtt_controller.GetAttribute(e, "stem.pos");
     }
-
-    public static string GetStemPosValue(this IAttStemmed e)
+    
+    public static string GetStemPosValue(this IAttStems e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "stem.pos");
     }
-
-    public static bool HasStemPos(this IAttStemmed e)
+    
+    public static bool HasStemPos(this IAttStems e)
     {
       return MeiAtt_controller.HasAttribute(e, "stem.pos");
     }
 
-    public static void RemoveStemPos(this IAttStemmed e)
+    public static void RemoveStemPos(this IAttStems e)
     {
       MeiAtt_controller.RemoveAttribute(e, "stem.pos");
     }
@@ -121,27 +144,27 @@ namespace mei
 
     #region stem.x
     
-    public static void SetStemX(this IAttStemmed e, string _val)
+    public static void SetStemX(this IAttStems e, string _val)
     {
       MeiAtt_controller.SetAttribute(e, "stem.x", _val);
     }
 
-    public static XAttribute GetStemXAttribute(this IAttStemmed e)
+    public static XAttribute GetStemXAttribute(this IAttStems e)
     {
       return MeiAtt_controller.GetAttribute(e, "stem.x");
     }
-
-    public static string GetStemXValue(this IAttStemmed e)
+    
+    public static string GetStemXValue(this IAttStems e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "stem.x");
     }
-
-    public static bool HasStemX(this IAttStemmed e)
+    
+    public static bool HasStemX(this IAttStems e)
     {
       return MeiAtt_controller.HasAttribute(e, "stem.x");
     }
 
-    public static void RemoveStemX(this IAttStemmed e)
+    public static void RemoveStemX(this IAttStems e)
     {
       MeiAtt_controller.RemoveAttribute(e, "stem.x");
     }
@@ -149,27 +172,27 @@ namespace mei
 
     #region stem.y
     
-    public static void SetStemY(this IAttStemmed e, string _val)
+    public static void SetStemY(this IAttStems e, string _val)
     {
       MeiAtt_controller.SetAttribute(e, "stem.y", _val);
     }
 
-    public static XAttribute GetStemYAttribute(this IAttStemmed e)
+    public static XAttribute GetStemYAttribute(this IAttStems e)
     {
       return MeiAtt_controller.GetAttribute(e, "stem.y");
     }
-
-    public static string GetStemYValue(this IAttStemmed e)
+    
+    public static string GetStemYValue(this IAttStems e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "stem.y");
     }
-
-    public static bool HasStemY(this IAttStemmed e)
+    
+    public static bool HasStemY(this IAttStems e)
     {
       return MeiAtt_controller.HasAttribute(e, "stem.y");
     }
 
-    public static void RemoveStemY(this IAttStemmed e)
+    public static void RemoveStemY(this IAttStems e)
     {
       MeiAtt_controller.RemoveAttribute(e, "stem.y");
     }

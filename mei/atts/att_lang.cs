@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "xml:lang");
     }
-
+    
     public static string GetLangValue(this IAttLang e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "xml:lang");
     }
-
+    
     public static bool HasLang(this IAttLang e)
     {
       return MeiAtt_controller.HasAttribute(e, "xml:lang");
@@ -60,6 +55,34 @@ namespace mei
     public static void RemoveLang(this IAttLang e)
     {
       MeiAtt_controller.RemoveAttribute(e, "xml:lang");
+    }
+    #endregion
+
+    #region translit
+    
+    public static void SetTranslit(this IAttLang e, string _val)
+    {
+      MeiAtt_controller.SetAttribute(e, "translit", _val);
+    }
+
+    public static XAttribute GetTranslitAttribute(this IAttLang e)
+    {
+      return MeiAtt_controller.GetAttribute(e, "translit");
+    }
+    
+    public static string GetTranslitValue(this IAttLang e)
+    {
+      return MeiAtt_controller.GetAttributeValue(e, "translit");
+    }
+    
+    public static bool HasTranslit(this IAttLang e)
+    {
+      return MeiAtt_controller.HasAttribute(e, "translit");
+    }
+
+    public static void RemoveTranslit(this IAttLang e)
+    {
+      MeiAtt_controller.RemoveAttribute(e, "translit");
     }
     #endregion
 

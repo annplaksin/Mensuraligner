@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <dot/>
     /// </summary>
-    public class Dot : MeiElement, IAttCommon, IAttDotLog, IAttPlist, IAttTimestampMusical, IAttTimestampPerformed, IAttStaffident, IAttLayerident, IAttColor, IAttStaffloc, IAttVisualoffsetHo, IAttVisualoffsetVo, IAttXy, IAttStafflocPitched, IAttCommonAnl
+    public class Dot : MeiElement, IAttCommon, IAttCommonPart, IAttDotLog, IAttPlist, IAttTargeteval, IAttTimestampMusical, IAttTimestampPerformed, IAttStaffident, IAttLayerident, IAttAltsym, IAttColor, IAttStaffloc, IAttTypography, IAttVisualoffsetHo, IAttVisualoffsetVo, IAttXy, IAttStafflocPitched, IAttCommonAnl
     {
         
         public Dot() : base("dot") { }

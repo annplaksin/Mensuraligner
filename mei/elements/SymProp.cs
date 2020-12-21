@@ -14,24 +14,19 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
-    /// <ensemble/>
+    /// <symProp/>
     /// </summary>
-    public class Ensemble : MeiElement, IAttCommon, IAttAuthorized, IAttBibl, IAttCoded
+    public class SymProp : MeiElement, IAttCommon, IAttCommonPart
     {
         
-        public Ensemble() : base("ensemble") { }
+        public SymProp() : base("symProp") { }
 
-        public Ensemble(object _content) : base("ensemble", _content) { }
+        public SymProp(object _content) : base("symProp", _content) { }
 
-        public Ensemble(params object[] _content) : base("ensemble", _content) { }
+        public SymProp(params object[] _content) : base("symProp", _content) { }
 
 
         

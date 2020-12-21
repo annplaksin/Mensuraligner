@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <custos/>
     /// </summary>
-    public class Custos : MeiElement, IAttCommon, IAttSource, IAttCustosLog, IAttPitch, IAttOctave, IAttAltsym, IAttColor, IAttStaffloc, IAttCommonAnl
+    public class Custos : MeiElement, IAttCommon, IAttCommonPart, IAttSource, IAttCustosLog, IAttPitch, IAttOctave, IAttAltsym, IAttColor, IAttStaffloc, IAttTypography, IAttCommonAnl
     {
         
         public Custos() : base("custos") { }

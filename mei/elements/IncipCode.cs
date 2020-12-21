@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <incipCode/>
     /// </summary>
-    public class IncipCode : MeiElement, IAttCommon, IAttBibl, IAttInternetmedia, IAttPointing, IAttWhitespace
+    public class IncipCode : MeiElement, IAttCommon, IAttCommonPart, IAttBibl, IAttInternetmedia, IAttPointing, IAttWhitespace
     {
         
         public IncipCode() : base("incipCode") { }
@@ -45,12 +40,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "form");
     }
-
+    
     public string GetFormValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "form");
     }
-
+    
     public bool HasForm()
     {
       return MeiAtt_controller.HasAttribute(this, "form");

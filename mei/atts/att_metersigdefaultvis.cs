@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "meter.rend");
     }
-
+    
     public static string GetMeterRendValue(this IAttMeterSigDefaultVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "meter.rend");
     }
-
+    
     public static bool HasMeterRend(this IAttMeterSigDefaultVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "meter.rend");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "meter.showchange");
     }
-
+    
     public static string GetMeterShowchangeValue(this IAttMeterSigDefaultVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "meter.showchange");
     }
-
+    
     public static bool HasMeterShowchange(this IAttMeterSigDefaultVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "meter.showchange");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "meter.sym");
     }
-
+    
     public static string GetMeterSymValue(this IAttMeterSigDefaultVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "meter.sym");
     }
-
+    
     public static bool HasMeterSym(this IAttMeterSigDefaultVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "meter.sym");

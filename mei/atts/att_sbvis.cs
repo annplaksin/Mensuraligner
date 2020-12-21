@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
   /// Interface for att.sb.vis
   /// </summary>
-  public interface IAttSbVis : IMEiAtt
+  public interface IAttSbVis : IMEiAtt, IAttAltsym, IAttTypography
   {
 
   }
@@ -35,31 +30,31 @@ namespace mei
   /// </summary>
   public static class AttSbVis_extensions
   {
-    #region rend
+    #region form
     
-    public static void SetRend(this IAttSbVis e, string _val)
+    public static void SetForm(this IAttSbVis e, string _val)
     {
-      MeiAtt_controller.SetAttribute(e, "rend", _val);
+      MeiAtt_controller.SetAttribute(e, "form", _val);
     }
 
-    public static XAttribute GetRendAttribute(this IAttSbVis e)
+    public static XAttribute GetFormAttribute(this IAttSbVis e)
     {
-      return MeiAtt_controller.GetAttribute(e, "rend");
+      return MeiAtt_controller.GetAttribute(e, "form");
+    }
+    
+    public static string GetFormValue(this IAttSbVis e)
+    {
+      return MeiAtt_controller.GetAttributeValue(e, "form");
+    }
+    
+    public static bool HasForm(this IAttSbVis e)
+    {
+      return MeiAtt_controller.HasAttribute(e, "form");
     }
 
-    public static string GetRendValue(this IAttSbVis e)
+    public static void RemoveForm(this IAttSbVis e)
     {
-      return MeiAtt_controller.GetAttributeValue(e, "rend");
-    }
-
-    public static bool HasRend(this IAttSbVis e)
-    {
-      return MeiAtt_controller.HasAttribute(e, "rend");
-    }
-
-    public static void RemoveRend(this IAttSbVis e)
-    {
-      MeiAtt_controller.RemoveAttribute(e, "rend");
+      MeiAtt_controller.RemoveAttribute(e, "form");
     }
     #endregion
 

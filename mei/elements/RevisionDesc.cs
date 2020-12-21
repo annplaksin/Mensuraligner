@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <revisionDesc/>
     /// </summary>
-    public class RevisionDesc : MeiElement, IAttCommon, IAttBibl
+    public class RevisionDesc : MeiElement, IAttCommon, IAttCommonPart, IAttBibl
     {
         
         public RevisionDesc() : base("revisionDesc") { }

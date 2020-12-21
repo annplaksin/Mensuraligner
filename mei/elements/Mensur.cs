@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <mensur/>
     /// </summary>
-    public class Mensur : MeiElement, IAttAltsym, IAttCommon, IAttMensurLog, IAttDurationRatio, IAttSlashcount, IAttMensuralShared, IAttMensurVis, IAttColor, IAttRelativesize, IAttStaffloc, IAttCommonAnl
+    public class Mensur : MeiElement, IAttCommon, IAttCommonPart, IAttMensurLog, IAttDurationRatio, IAttSlashcount, IAttMensuralShared, IAttMensurVis, IAttAltsym, IAttColor, IAttRelativesize, IAttStaffloc, IAttTypography, IAttCommonAnl
     {
         
         public Mensur() : base("mensur") { }

@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "key.accid");
     }
-
+    
     public static string GetKeyAccidValue(this IAttKeySigDefaultLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "key.accid");
     }
-
+    
     public static bool HasKeyAccid(this IAttKeySigDefaultLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "key.accid");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "key.mode");
     }
-
+    
     public static string GetKeyModeValue(this IAttKeySigDefaultLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "key.mode");
     }
-
+    
     public static bool HasKeyMode(this IAttKeySigDefaultLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "key.mode");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "key.pname");
     }
-
+    
     public static string GetKeyPnameValue(this IAttKeySigDefaultLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "key.pname");
     }
-
+    
     public static bool HasKeyPname(this IAttKeySigDefaultLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "key.pname");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "key.sig");
     }
-
+    
     public static string GetKeySigValue(this IAttKeySigDefaultLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "key.sig");
     }
-
+    
     public static bool HasKeySig(this IAttKeySigDefaultLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "key.sig");
@@ -158,12 +153,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "key.sig.mixed");
     }
-
+    
     public static string GetKeySigMixedValue(this IAttKeySigDefaultLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "key.sig.mixed");
     }
-
+    
     public static bool HasKeySigMixed(this IAttKeySigDefaultLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "key.sig.mixed");

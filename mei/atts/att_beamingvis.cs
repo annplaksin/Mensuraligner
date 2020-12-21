@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "beam.color");
     }
-
+    
     public static string GetBeamColorValue(this IAttBeamingVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "beam.color");
     }
-
+    
     public static bool HasBeamColor(this IAttBeamingVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "beam.color");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "beam.rend");
     }
-
+    
     public static string GetBeamRendValue(this IAttBeamingVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "beam.rend");
     }
-
+    
     public static bool HasBeamRend(this IAttBeamingVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "beam.rend");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "beam.slope");
     }
-
+    
     public static string GetBeamSlopeValue(this IAttBeamingVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "beam.slope");
     }
-
+    
     public static bool HasBeamSlope(this IAttBeamingVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "beam.slope");

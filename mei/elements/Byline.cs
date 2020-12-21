@@ -14,24 +14,19 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
-    /// <acqSource/>
+    /// <byline/>
     /// </summary>
-    public class AcqSource : MeiElement, IAttBibl, IAttCommon, IAttLang
+    public class Byline : MeiElement, IAttCommon, IAttCommonPart, IAttBibl, IAttLang
     {
         
-        public AcqSource() : base("acqSource") { }
+        public Byline() : base("byline") { }
 
-        public AcqSource(object _content) : base("acqSource", _content) { }
+        public Byline(object _content) : base("byline", _content) { }
 
-        public AcqSource(params object[] _content) : base("acqSource", _content) { }
+        public Byline(params object[] _content) : base("byline", _content) { }
 
 
         

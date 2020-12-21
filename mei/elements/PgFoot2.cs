@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <pgFoot2/>
     /// </summary>
-    public class PgFoot2 : MeiElement, IAttCommon, IAttLang
+    public class PgFoot2 : MeiElement, IAttCommon, IAttCommonPart, IAttLang, IAttTyped
     {
         
         public PgFoot2() : base("pgFoot2") { }
@@ -34,6 +29,33 @@ namespace mei
         public PgFoot2(params object[] _content) : base("pgFoot2", _content) { }
 
 
-        
+        #region halign
+    
+    public void SetHalign(string _val)
+    {
+      MeiAtt_controller.SetAttribute(this, "halign", _val);
+    }
+
+    public XAttribute GetHalignAttribute()
+    {
+      return MeiAtt_controller.GetAttribute(this, "halign");
+    }
+    
+    public string GetHalignValue()
+    {
+      return MeiAtt_controller.GetAttributeValue(this, "halign");
+    }
+    
+    public bool HasHalign()
+    {
+      return MeiAtt_controller.HasAttribute(this, "halign");
+    }
+
+    public void RemoveHalign()
+    {
+      MeiAtt_controller.RemoveAttribute(this, "halign");
+    }
+    #endregion
+
     }
 }

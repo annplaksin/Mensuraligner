@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <useRestrict/>
     /// </summary>
-    public class UseRestrict : MeiElement, IAttCommon, IAttBibl
+    public class UseRestrict : MeiElement, IAttCommon, IAttCommonPart, IAttBibl, IAttLang
     {
         
         public UseRestrict() : base("useRestrict") { }

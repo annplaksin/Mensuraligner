@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "modusmaior");
     }
-
+    
     public static string GetModusmaiorValue(this IAttMensuralShared e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "modusmaior");
     }
-
+    
     public static bool HasModusmaior(this IAttMensuralShared e)
     {
       return MeiAtt_controller.HasAttribute(e, "modusmaior");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "modusminor");
     }
-
+    
     public static string GetModusminorValue(this IAttMensuralShared e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "modusminor");
     }
-
+    
     public static bool HasModusminor(this IAttMensuralShared e)
     {
       return MeiAtt_controller.HasAttribute(e, "modusminor");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "prolatio");
     }
-
+    
     public static string GetProlatioValue(this IAttMensuralShared e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "prolatio");
     }
-
+    
     public static bool HasProlatio(this IAttMensuralShared e)
     {
       return MeiAtt_controller.HasAttribute(e, "prolatio");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "tempus");
     }
-
+    
     public static string GetTempusValue(this IAttMensuralShared e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "tempus");
     }
-
+    
     public static bool HasTempus(this IAttMensuralShared e)
     {
       return MeiAtt_controller.HasAttribute(e, "tempus");

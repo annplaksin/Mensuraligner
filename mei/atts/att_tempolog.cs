@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -30,5 +25,39 @@ namespace mei
   }
 
 
+    /// <summary>
+  /// Extension methods for att.tempo.log
+  /// </summary>
+  public static class AttTempoLog_extensions
+  {
+    #region func
     
+    public static void SetFunc(this IAttTempoLog e, string _val)
+    {
+      MeiAtt_controller.SetAttribute(e, "func", _val);
+    }
+
+    public static XAttribute GetFuncAttribute(this IAttTempoLog e)
+    {
+      return MeiAtt_controller.GetAttribute(e, "func");
+    }
+    
+    public static string GetFuncValue(this IAttTempoLog e)
+    {
+      return MeiAtt_controller.GetAttributeValue(e, "func");
+    }
+    
+    public static bool HasFunc(this IAttTempoLog e)
+    {
+      return MeiAtt_controller.HasAttribute(e, "func");
+    }
+
+    public static void RemoveFunc(this IAttTempoLog e)
+    {
+      MeiAtt_controller.RemoveAttribute(e, "func");
+    }
+    #endregion
+
+  }
+
 }

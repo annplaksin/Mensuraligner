@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -35,31 +30,31 @@ namespace mei
   /// </summary>
   public static class AttBarLineLog_extensions
   {
-    #region rend
+    #region form
     
-    public static void SetRend(this IAttBarLineLog e, string _val)
+    public static void SetForm(this IAttBarLineLog e, string _val)
     {
-      MeiAtt_controller.SetAttribute(e, "rend", _val);
+      MeiAtt_controller.SetAttribute(e, "form", _val);
     }
 
-    public static XAttribute GetRendAttribute(this IAttBarLineLog e)
+    public static XAttribute GetFormAttribute(this IAttBarLineLog e)
     {
-      return MeiAtt_controller.GetAttribute(e, "rend");
+      return MeiAtt_controller.GetAttribute(e, "form");
+    }
+    
+    public static string GetFormValue(this IAttBarLineLog e)
+    {
+      return MeiAtt_controller.GetAttributeValue(e, "form");
+    }
+    
+    public static bool HasForm(this IAttBarLineLog e)
+    {
+      return MeiAtt_controller.HasAttribute(e, "form");
     }
 
-    public static string GetRendValue(this IAttBarLineLog e)
+    public static void RemoveForm(this IAttBarLineLog e)
     {
-      return MeiAtt_controller.GetAttributeValue(e, "rend");
-    }
-
-    public static bool HasRend(this IAttBarLineLog e)
-    {
-      return MeiAtt_controller.HasAttribute(e, "rend");
-    }
-
-    public static void RemoveRend(this IAttBarLineLog e)
-    {
-      MeiAtt_controller.RemoveAttribute(e, "rend");
+      MeiAtt_controller.RemoveAttribute(e, "form");
     }
     #endregion
 

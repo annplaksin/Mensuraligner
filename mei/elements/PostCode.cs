@@ -14,24 +14,19 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
-    /// <tapeConfig/>
+    /// <postCode/>
     /// </summary>
-    public class TapeConfig : MeiElement, IAttCommon, IAttAuthorized, IAttBibl
+    public class PostCode : MeiElement, IAttCommon, IAttCommonPart, IAttLang
     {
         
-        public TapeConfig() : base("tapeConfig") { }
+        public PostCode() : base("postCode") { }
 
-        public TapeConfig(object _content) : base("tapeConfig", _content) { }
+        public PostCode(object _content) : base("postCode", _content) { }
 
-        public TapeConfig(params object[] _content) : base("tapeConfig", _content) { }
+        public PostCode(params object[] _content) : base("postCode", _content) { }
 
 
         

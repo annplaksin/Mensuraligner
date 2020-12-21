@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "authority");
     }
-
+    
     public static string GetAuthorityValue(this IAttAuthorized e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "authority");
     }
-
+    
     public static bool HasAuthority(this IAttAuthorized e)
     {
       return MeiAtt_controller.HasAttribute(e, "authority");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "authURI");
     }
-
+    
     public static string GetAuthURIValue(this IAttAuthorized e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "authURI");
     }
-
+    
     public static bool HasAuthURI(this IAttAuthorized e)
     {
       return MeiAtt_controller.HasAttribute(e, "authURI");

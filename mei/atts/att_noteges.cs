@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "oct.ges");
     }
-
+    
     public static string GetOctGesValue(this IAttNoteGes e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "oct.ges");
     }
-
+    
     public static bool HasOctGes(this IAttNoteGes e)
     {
       return MeiAtt_controller.HasAttribute(e, "oct.ges");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "pname.ges");
     }
-
+    
     public static string GetPnameGesValue(this IAttNoteGes e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "pname.ges");
     }
-
+    
     public static bool HasPnameGes(this IAttNoteGes e)
     {
       return MeiAtt_controller.HasAttribute(e, "pname.ges");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "pnum");
     }
-
+    
     public static string GetPnumValue(this IAttNoteGes e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "pnum");
     }
-
+    
     public static bool HasPnum(this IAttNoteGes e)
     {
       return MeiAtt_controller.HasAttribute(e, "pnum");

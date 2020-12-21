@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
   /// Interface for att.chord.vis
   /// </summary>
-  public interface IAttChordVis : IMEiAtt, IAttAltsym, IAttColor, IAttRelativesize, IAttStemmed, IAttVisibility, IAttVisualoffsetHo, IAttVisualoffsetTo, IAttXy
+  public interface IAttChordVis : IMEiAtt, IAttAltsym, IAttColor, IAttEnclosingchars, IAttRelativesize, IAttStems, IAttTypography, IAttVisibility, IAttVisualoffsetHo, IAttVisualoffsetTo, IAttXy
   {
 
   }
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "cluster");
     }
-
+    
     public static string GetClusterValue(this IAttChordVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "cluster");
     }
-
+    
     public static bool HasCluster(this IAttChordVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "cluster");

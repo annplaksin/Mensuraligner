@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "dynam.dist");
     }
-
+    
     public static string GetDynamDistValue(this IAttDistances e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "dynam.dist");
     }
-
+    
     public static bool HasDynamDist(this IAttDistances e)
     {
       return MeiAtt_controller.HasAttribute(e, "dynam.dist");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "harm.dist");
     }
-
+    
     public static string GetHarmDistValue(this IAttDistances e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "harm.dist");
     }
-
+    
     public static bool HasHarmDist(this IAttDistances e)
     {
       return MeiAtt_controller.HasAttribute(e, "harm.dist");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "text.dist");
     }
-
+    
     public static string GetTextDistValue(this IAttDistances e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "text.dist");
     }
-
+    
     public static bool HasTextDist(this IAttDistances e)
     {
       return MeiAtt_controller.HasAttribute(e, "text.dist");

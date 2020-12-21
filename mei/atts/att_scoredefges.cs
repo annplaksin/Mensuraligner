@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "tune.pname");
     }
-
+    
     public static string GetTunePnameValue(this IAttScoreDefGes e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "tune.pname");
     }
-
+    
     public static bool HasTunePname(this IAttScoreDefGes e)
     {
       return MeiAtt_controller.HasAttribute(e, "tune.pname");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "tune.Hz");
     }
-
+    
     public static string GetTuneHzValue(this IAttScoreDefGes e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "tune.Hz");
     }
-
+    
     public static bool HasTuneHz(this IAttScoreDefGes e)
     {
       return MeiAtt_controller.HasAttribute(e, "tune.Hz");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "tune.temper");
     }
-
+    
     public static string GetTuneTemperValue(this IAttScoreDefGes e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "tune.temper");
     }
-
+    
     public static bool HasTuneTemper(this IAttScoreDefGes e)
     {
       return MeiAtt_controller.HasAttribute(e, "tune.temper");

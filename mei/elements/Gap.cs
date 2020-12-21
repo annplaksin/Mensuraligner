@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <gap/>
     /// </summary>
-    public class Gap : MeiElement, IAttCommon, IAttEdit, IAttResponsibility, IAttSource, IAttExtent, IAttHandident, IAttReasonident, IAttMeasurement
+    public class Gap : MeiElement, IAttCommon, IAttCommonPart, IAttResponsibility, IAttSource, IAttEvidence, IAttExtent, IAttHandident, IAttReasonident, IAttMeasurement
     {
         
         public Gap() : base("gap") { }

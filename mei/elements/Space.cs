@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <space/>
     /// </summary>
-    public class Space : MeiElement, IAttCommon, IAttAugmentdots, IAttTimestampMusical, IAttTimestampPerformed, IAttStaffident, IAttLayerident, IAttDurationMusical, IAttFermatapresent, IAttTupletpresent, IAttSpaceVis, IAttDurationPerformed, IAttCommonAnl
+    public class Space : MeiElement, IAttCommon, IAttCommonPart, IAttAugmentdots, IAttTimestampMusical, IAttTimestampPerformed, IAttStaffident, IAttLayerident, IAttDurationMusical, IAttFermatapresent, IAttTupletpresent, IAttSpaceVis, IAttDurationPerformed, IAttCommonAnl
     {
         
         public Space() : base("space") { }

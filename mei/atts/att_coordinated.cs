@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "ulx");
     }
-
+    
     public static string GetUlxValue(this IAttCoordinated e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "ulx");
     }
-
+    
     public static bool HasUlx(this IAttCoordinated e)
     {
       return MeiAtt_controller.HasAttribute(e, "ulx");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "uly");
     }
-
+    
     public static string GetUlyValue(this IAttCoordinated e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "uly");
     }
-
+    
     public static bool HasUly(this IAttCoordinated e)
     {
       return MeiAtt_controller.HasAttribute(e, "uly");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "lrx");
     }
-
+    
     public static string GetLrxValue(this IAttCoordinated e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "lrx");
     }
-
+    
     public static bool HasLrx(this IAttCoordinated e)
     {
       return MeiAtt_controller.HasAttribute(e, "lrx");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "lry");
     }
-
+    
     public static string GetLryValue(this IAttCoordinated e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "lry");
     }
-
+    
     public static bool HasLry(this IAttCoordinated e)
     {
       return MeiAtt_controller.HasAttribute(e, "lry");

@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <title/>
     /// </summary>
-    public class Title : MeiElement, IAttCommon, IAttAuthorized, IAttCanonical, IAttBibl, IAttLang, IAttTyped
+    public class Title : MeiElement, IAttCommon, IAttCommonPart, IAttAuthorized, IAttBibl, IAttCanonical, IAttFiling, IAttLang
     {
         
         public Title() : base("title") { }
@@ -45,12 +40,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "level");
     }
-
+    
     public string GetLevelValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "level");
     }
-
+    
     public bool HasLevel()
     {
       return MeiAtt_controller.HasAttribute(this, "level");
@@ -59,6 +54,62 @@ namespace mei
     public void RemoveLevel()
     {
       MeiAtt_controller.RemoveAttribute(this, "level");
+    }
+    #endregion
+
+        #region type
+    
+    public void SetType(string _val)
+    {
+      MeiAtt_controller.SetAttribute(this, "type", _val);
+    }
+
+    public XAttribute GetTypeAttribute()
+    {
+      return MeiAtt_controller.GetAttribute(this, "type");
+    }
+    
+    public string GetTypeValue()
+    {
+      return MeiAtt_controller.GetAttributeValue(this, "type");
+    }
+    
+    public bool HasType()
+    {
+      return MeiAtt_controller.HasAttribute(this, "type");
+    }
+
+    public void RemoveType()
+    {
+      MeiAtt_controller.RemoveAttribute(this, "type");
+    }
+    #endregion
+
+        #region subtype
+    
+    public void SetSubtype(string _val)
+    {
+      MeiAtt_controller.SetAttribute(this, "subtype", _val);
+    }
+
+    public XAttribute GetSubtypeAttribute()
+    {
+      return MeiAtt_controller.GetAttribute(this, "subtype");
+    }
+    
+    public string GetSubtypeValue()
+    {
+      return MeiAtt_controller.GetAttributeValue(this, "subtype");
+    }
+    
+    public bool HasSubtype()
+    {
+      return MeiAtt_controller.HasAttribute(this, "subtype");
+    }
+
+    public void RemoveSubtype()
+    {
+      MeiAtt_controller.RemoveAttribute(this, "subtype");
     }
     #endregion
 

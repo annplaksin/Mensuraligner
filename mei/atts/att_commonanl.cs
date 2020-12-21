@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "copyof");
     }
-
+    
     public static string GetCopyofValue(this IAttCommonAnl e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "copyof");
     }
-
+    
     public static bool HasCopyof(this IAttCommonAnl e)
     {
       return MeiAtt_controller.HasAttribute(e, "copyof");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "corresp");
     }
-
+    
     public static string GetCorrespValue(this IAttCommonAnl e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "corresp");
     }
-
+    
     public static bool HasCorresp(this IAttCommonAnl e)
     {
       return MeiAtt_controller.HasAttribute(e, "corresp");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "next");
     }
-
+    
     public static string GetNextValue(this IAttCommonAnl e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "next");
     }
-
+    
     public static bool HasNext(this IAttCommonAnl e)
     {
       return MeiAtt_controller.HasAttribute(e, "next");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "prev");
     }
-
+    
     public static string GetPrevValue(this IAttCommonAnl e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "prev");
     }
-
+    
     public static bool HasPrev(this IAttCommonAnl e)
     {
       return MeiAtt_controller.HasAttribute(e, "prev");
@@ -158,12 +153,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "sameas");
     }
-
+    
     public static string GetSameasValue(this IAttCommonAnl e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "sameas");
     }
-
+    
     public static bool HasSameas(this IAttCommonAnl e)
     {
       return MeiAtt_controller.HasAttribute(e, "sameas");
@@ -186,12 +181,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "synch");
     }
-
+    
     public static string GetSynchValue(this IAttCommonAnl e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "synch");
     }
-
+    
     public static bool HasSynch(this IAttCommonAnl e)
     {
       return MeiAtt_controller.HasAttribute(e, "synch");

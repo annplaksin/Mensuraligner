@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <panel/>
     /// </summary>
-    public class Panel : MeiElement, IAttCommon, IAttDeclaring, IAttCommonAnl
+    public class Panel : MeiElement, IAttCommon, IAttCommonPart, IAttDeclaring, IAttCommonAnl
     {
         private static readonly XNamespace ns_panel = "http://github.com/annplaksin/mensural_sourceEncoding";
 
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "leftmar");
     }
-
+    
     public string GetLeftmarValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "leftmar");
     }
-
+    
     public bool HasLeftmar()
     {
       return MeiAtt_controller.HasAttribute(this, "leftmar");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "rightmar");
     }
-
+    
     public string GetRightmarValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "rightmar");
     }
-
+    
     public bool HasRightmar()
     {
       return MeiAtt_controller.HasAttribute(this, "rightmar");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "topmar");
     }
-
+    
     public string GetTopmarValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "topmar");
     }
-
+    
     public bool HasTopmar()
     {
       return MeiAtt_controller.HasAttribute(this, "topmar");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "type");
     }
-
+    
     public string GetTypeValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "type");
     }
-
+    
     public bool HasType()
     {
       return MeiAtt_controller.HasAttribute(this, "type");

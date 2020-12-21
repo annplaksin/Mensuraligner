@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <correction/>
     /// </summary>
-    public class Correction : MeiElement, IAttCommon, IAttBibl, IAttDatapointing, IAttLang, IAttRegularmethod
+    public class Correction : MeiElement, IAttCommon, IAttCommonPart, IAttBibl, IAttDatapointing, IAttLang, IAttRegularmethod
     {
         
         public Correction() : base("correction") { }
@@ -45,12 +40,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "corrlevel");
     }
-
+    
     public string GetCorrlevelValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "corrlevel");
     }
-
+    
     public bool HasCorrlevel()
     {
       return MeiAtt_controller.HasAttribute(this, "corrlevel");

@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "count");
     }
-
+    
     public static string GetCountValue(this IAttMeterSigLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "count");
     }
-
+    
     public static bool HasCount(this IAttMeterSigLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "count");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "sym");
     }
-
+    
     public static string GetSymValue(this IAttMeterSigLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "sym");
     }
-
+    
     public static bool HasSym(this IAttMeterSigLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "sym");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "unit");
     }
-
+    
     public static string GetUnitValue(this IAttMeterSigLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "unit");
     }
-
+    
     public static bool HasUnit(this IAttMeterSigLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "unit");

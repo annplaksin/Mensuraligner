@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "mm");
     }
-
+    
     public static string GetMmValue(this IAttMmtempo e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "mm");
     }
-
+    
     public static bool HasMm(this IAttMmtempo e)
     {
       return MeiAtt_controller.HasAttribute(e, "mm");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "mm.unit");
     }
-
+    
     public static string GetMmUnitValue(this IAttMmtempo e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "mm.unit");
     }
-
+    
     public static bool HasMmUnit(this IAttMmtempo e)
     {
       return MeiAtt_controller.HasAttribute(e, "mm.unit");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "mm.dots");
     }
-
+    
     public static string GetMmDotsValue(this IAttMmtempo e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "mm.dots");
     }
-
+    
     public static bool HasMmDots(this IAttMmtempo e)
     {
       return MeiAtt_controller.HasAttribute(e, "mm.dots");

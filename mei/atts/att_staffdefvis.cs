@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "grid.show");
     }
-
+    
     public static string GetGridShowValue(this IAttStaffDefVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "grid.show");
     }
-
+    
     public static bool HasGridShow(this IAttStaffDefVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "grid.show");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "layerscheme");
     }
-
+    
     public static string GetLayerschemeValue(this IAttStaffDefVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "layerscheme");
     }
-
+    
     public static bool HasLayerscheme(this IAttStaffDefVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "layerscheme");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "lines");
     }
-
+    
     public static string GetLinesValue(this IAttStaffDefVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "lines");
     }
-
+    
     public static bool HasLines(this IAttStaffDefVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "lines");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "lines.color");
     }
-
+    
     public static string GetLinesColorValue(this IAttStaffDefVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "lines.color");
     }
-
+    
     public static bool HasLinesColor(this IAttStaffDefVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "lines.color");
@@ -158,12 +153,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "lines.visible");
     }
-
+    
     public static string GetLinesVisibleValue(this IAttStaffDefVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "lines.visible");
     }
-
+    
     public static bool HasLinesVisible(this IAttStaffDefVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "lines.visible");
@@ -186,12 +181,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "spacing");
     }
-
+    
     public static string GetSpacingValue(this IAttStaffDefVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "spacing");
     }
-
+    
     public static bool HasSpacing(this IAttStaffDefVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "spacing");

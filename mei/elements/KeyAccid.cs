@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <keyAccid/>
     /// </summary>
-    public class KeyAccid : MeiElement, IAttCommon, IAttCommonAnl, IAttAccidental, IAttPitch, IAttOctave, IAttEnclosingchars, IAttStaffloc, IAttXy
+    public class KeyAccid : MeiElement, IAttCommon, IAttCommonPart, IAttCommonAnl, IAttAccidental, IAttPitch, IAttOctave, IAttAltsym, IAttEnclosingchars, IAttStaffloc, IAttTypography, IAttXy
     {
         
         public KeyAccid() : base("keyAccid") { }
@@ -45,12 +40,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "form");
     }
-
+    
     public string GetFormValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "form");
     }
-
+    
     public bool HasForm()
     {
       return MeiAtt_controller.HasAttribute(this, "form");

@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <extent/>
     /// </summary>
-    public class Extent : MeiElement, IAttCommon, IAttBibl, IAttMeasurement
+    public class Extent : MeiElement, IAttCommon, IAttCommonPart, IAttBibl, IAttLang, IAttMeasurement
     {
         
         public Extent() : base("extent") { }

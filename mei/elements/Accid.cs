@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <accid/>
     /// </summary>
-    public class Accid : MeiElement, IAttCommon, IAttTypography, IAttAccidLog, IAttAccidental, IAttPlist, IAttTimestampMusical, IAttTimestampPerformed, IAttStaffident, IAttLayerident, IAttColor, IAttEnclosingchars, IAttPlacement, IAttStaffloc, IAttVisualoffsetHo, IAttVisualoffsetVo, IAttXy, IAttStafflocPitched, IAttCommonAnl, IAttAccidPos
+    public class Accid : MeiElement, IAttCommon, IAttCommonPart, IAttAccidLog, IAttAccidental, IAttPlist, IAttTargeteval, IAttTimestampMusical, IAttTimestampPerformed, IAttStaffident, IAttLayerident, IAttAltsym, IAttColor, IAttEnclosingchars, IAttPlacement, IAttStaffloc, IAttTypography, IAttVisualoffsetHo, IAttVisualoffsetVo, IAttXy, IAttStafflocPitched, IAttAccidentalPerformed, IAttCommonAnl, IAttAccidPos
     {
         
         public Accid() : base("accid") { }

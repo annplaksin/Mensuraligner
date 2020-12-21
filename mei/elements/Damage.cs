@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <damage/>
     /// </summary>
-    public class Damage : MeiElement, IAttAgentident, IAttCommon, IAttExtent, IAttHandident, IAttTyped
+    public class Damage : MeiElement, IAttAgentident, IAttCommon, IAttCommonPart, IAttExtent, IAttHandident, IAttLang, IAttTyped
     {
         
         public Damage() : base("damage") { }
@@ -45,12 +40,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "degree");
     }
-
+    
     public string GetDegreeValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "degree");
     }
-
+    
     public bool HasDegree()
     {
       return MeiAtt_controller.HasAttribute(this, "degree");

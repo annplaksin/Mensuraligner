@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "xlink:actuate");
     }
-
+    
     public static string GetActuateValue(this IAttPointing e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "xlink:actuate");
     }
-
+    
     public static bool HasActuate(this IAttPointing e)
     {
       return MeiAtt_controller.HasAttribute(e, "xlink:actuate");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "xlink:role");
     }
-
+    
     public static string GetRoleValue(this IAttPointing e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "xlink:role");
     }
-
+    
     public static bool HasRole(this IAttPointing e)
     {
       return MeiAtt_controller.HasAttribute(e, "xlink:role");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "xlink:show");
     }
-
+    
     public static string GetShowValue(this IAttPointing e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "xlink:show");
     }
-
+    
     public static bool HasShow(this IAttPointing e)
     {
       return MeiAtt_controller.HasAttribute(e, "xlink:show");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "target");
     }
-
+    
     public static string GetTargetValue(this IAttPointing e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "target");
     }
-
+    
     public static bool HasTarget(this IAttPointing e)
     {
       return MeiAtt_controller.HasAttribute(e, "target");
@@ -158,12 +153,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "targettype");
     }
-
+    
     public static string GetTargettypeValue(this IAttPointing e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "targettype");
     }
-
+    
     public static bool HasTargettype(this IAttPointing e)
     {
       return MeiAtt_controller.HasAttribute(e, "targettype");
@@ -172,34 +167,6 @@ namespace mei
     public static void RemoveTargettype(this IAttPointing e)
     {
       MeiAtt_controller.RemoveAttribute(e, "targettype");
-    }
-    #endregion
-
-    #region xlink:title
-    
-    public static void SetTitle(this IAttPointing e, string _val)
-    {
-      MeiAtt_controller.SetAttribute(e, "xlink:title", _val);
-    }
-
-    public static XAttribute GetTitleAttribute(this IAttPointing e)
-    {
-      return MeiAtt_controller.GetAttribute(e, "xlink:title");
-    }
-
-    public static string GetTitleValue(this IAttPointing e)
-    {
-      return MeiAtt_controller.GetAttributeValue(e, "xlink:title");
-    }
-
-    public static bool HasTitle(this IAttPointing e)
-    {
-      return MeiAtt_controller.HasAttribute(e, "xlink:title");
-    }
-
-    public static void RemoveTitle(this IAttPointing e)
-    {
-      MeiAtt_controller.RemoveAttribute(e, "xlink:title");
     }
     #endregion
 

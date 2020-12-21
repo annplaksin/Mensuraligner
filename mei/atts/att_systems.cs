@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "system.leftline");
     }
-
+    
     public static string GetSystemLeftlineValue(this IAttSystems e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "system.leftline");
     }
-
+    
     public static bool HasSystemLeftline(this IAttSystems e)
     {
       return MeiAtt_controller.HasAttribute(e, "system.leftline");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "system.leftmar");
     }
-
+    
     public static string GetSystemLeftmarValue(this IAttSystems e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "system.leftmar");
     }
-
+    
     public static bool HasSystemLeftmar(this IAttSystems e)
     {
       return MeiAtt_controller.HasAttribute(e, "system.leftmar");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "system.rightmar");
     }
-
+    
     public static string GetSystemRightmarValue(this IAttSystems e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "system.rightmar");
     }
-
+    
     public static bool HasSystemRightmar(this IAttSystems e)
     {
       return MeiAtt_controller.HasAttribute(e, "system.rightmar");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "system.topmar");
     }
-
+    
     public static string GetSystemTopmarValue(this IAttSystems e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "system.topmar");
     }
-
+    
     public static bool HasSystemTopmar(this IAttSystems e)
     {
       return MeiAtt_controller.HasAttribute(e, "system.topmar");

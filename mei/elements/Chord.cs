@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <chord/>
     /// </summary>
-    public class Chord : MeiElement, IAttCommon, IAttTimestampMusical, IAttTimestampPerformed, IAttStaffident, IAttLayerident, IAttArticulation, IAttAugmentdots, IAttDurationMusical, IAttFermatapresent, IAttSyltext, IAttSlurpresent, IAttTiepresent, IAttTupletpresent, IAttChordVis, IAttAltsym, IAttColor, IAttRelativesize, IAttStemmed, IAttVisibility, IAttVisualoffsetHo, IAttVisualoffsetTo, IAttXy, IAttArticulationPerformed, IAttDurationPerformed, IAttInstrumentident, IAttCommonAnl
+    public class Chord : MeiElement, IAttCommon, IAttCommonPart, IAttChordVis, IAttAltsym, IAttColor, IAttEnclosingchars, IAttRelativesize, IAttStems, IAttTypography, IAttVisibility, IAttVisualoffsetHo, IAttVisualoffsetTo, IAttXy, IAttCommonAnl
     {
         
         public Chord() : base("chord") { }

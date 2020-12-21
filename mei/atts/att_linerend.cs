@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
   /// Interface for att.linerend
   /// </summary>
-  public interface IAttLinerend : IMEiAtt
+  public interface IAttLinerend : IMEiAtt, IAttLinerendBase
   {
 
   }
@@ -35,31 +30,115 @@ namespace mei
   /// </summary>
   public static class AttLinerend_extensions
   {
-    #region rend
+    #region lendsym
     
-    public static void SetRend(this IAttLinerend e, string _val)
+    public static void SetLendsym(this IAttLinerend e, string _val)
     {
-      MeiAtt_controller.SetAttribute(e, "rend", _val);
+      MeiAtt_controller.SetAttribute(e, "lendsym", _val);
     }
 
-    public static XAttribute GetRendAttribute(this IAttLinerend e)
+    public static XAttribute GetLendsymAttribute(this IAttLinerend e)
     {
-      return MeiAtt_controller.GetAttribute(e, "rend");
+      return MeiAtt_controller.GetAttribute(e, "lendsym");
+    }
+    
+    public static string GetLendsymValue(this IAttLinerend e)
+    {
+      return MeiAtt_controller.GetAttributeValue(e, "lendsym");
+    }
+    
+    public static bool HasLendsym(this IAttLinerend e)
+    {
+      return MeiAtt_controller.HasAttribute(e, "lendsym");
     }
 
-    public static string GetRendValue(this IAttLinerend e)
+    public static void RemoveLendsym(this IAttLinerend e)
     {
-      return MeiAtt_controller.GetAttributeValue(e, "rend");
+      MeiAtt_controller.RemoveAttribute(e, "lendsym");
+    }
+    #endregion
+
+    #region lendsymsize
+    
+    public static void SetLendsymsize(this IAttLinerend e, string _val)
+    {
+      MeiAtt_controller.SetAttribute(e, "lendsymsize", _val);
     }
 
-    public static bool HasRend(this IAttLinerend e)
+    public static XAttribute GetLendsymsizeAttribute(this IAttLinerend e)
     {
-      return MeiAtt_controller.HasAttribute(e, "rend");
+      return MeiAtt_controller.GetAttribute(e, "lendsymsize");
+    }
+    
+    public static string GetLendsymsizeValue(this IAttLinerend e)
+    {
+      return MeiAtt_controller.GetAttributeValue(e, "lendsymsize");
+    }
+    
+    public static bool HasLendsymsize(this IAttLinerend e)
+    {
+      return MeiAtt_controller.HasAttribute(e, "lendsymsize");
     }
 
-    public static void RemoveRend(this IAttLinerend e)
+    public static void RemoveLendsymsize(this IAttLinerend e)
     {
-      MeiAtt_controller.RemoveAttribute(e, "rend");
+      MeiAtt_controller.RemoveAttribute(e, "lendsymsize");
+    }
+    #endregion
+
+    #region lstartsym
+    
+    public static void SetLstartsym(this IAttLinerend e, string _val)
+    {
+      MeiAtt_controller.SetAttribute(e, "lstartsym", _val);
+    }
+
+    public static XAttribute GetLstartsymAttribute(this IAttLinerend e)
+    {
+      return MeiAtt_controller.GetAttribute(e, "lstartsym");
+    }
+    
+    public static string GetLstartsymValue(this IAttLinerend e)
+    {
+      return MeiAtt_controller.GetAttributeValue(e, "lstartsym");
+    }
+    
+    public static bool HasLstartsym(this IAttLinerend e)
+    {
+      return MeiAtt_controller.HasAttribute(e, "lstartsym");
+    }
+
+    public static void RemoveLstartsym(this IAttLinerend e)
+    {
+      MeiAtt_controller.RemoveAttribute(e, "lstartsym");
+    }
+    #endregion
+
+    #region lstartsymsize
+    
+    public static void SetLstartsymsize(this IAttLinerend e, string _val)
+    {
+      MeiAtt_controller.SetAttribute(e, "lstartsymsize", _val);
+    }
+
+    public static XAttribute GetLstartsymsizeAttribute(this IAttLinerend e)
+    {
+      return MeiAtt_controller.GetAttribute(e, "lstartsymsize");
+    }
+    
+    public static string GetLstartsymsizeValue(this IAttLinerend e)
+    {
+      return MeiAtt_controller.GetAttributeValue(e, "lstartsymsize");
+    }
+    
+    public static bool HasLstartsymsize(this IAttLinerend e)
+    {
+      return MeiAtt_controller.HasAttribute(e, "lstartsymsize");
+    }
+
+    public static void RemoveLstartsymsize(this IAttLinerend e)
+    {
+      MeiAtt_controller.RemoveAttribute(e, "lstartsymsize");
     }
     #endregion
 

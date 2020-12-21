@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <hand/>
     /// </summary>
-    public class Hand : MeiElement, IAttCommon, IAttBibl, IAttLang, IAttMedium, IAttResponsibility
+    public class Hand : MeiElement, IAttCommon, IAttCommonPart, IAttBibl, IAttLang, IAttMedium, IAttResponsibility
     {
         
         public Hand() : base("hand") { }
@@ -45,12 +40,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "initial");
     }
-
+    
     public string GetInitialValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "initial");
     }
-
+    
     public bool HasInitial()
     {
       return MeiAtt_controller.HasAttribute(this, "initial");

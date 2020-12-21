@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <incipText/>
     /// </summary>
-    public class IncipText : MeiElement, IAttCommon, IAttBibl, IAttLang, IAttPointing, IAttInternetmedia
+    public class IncipText : MeiElement, IAttCommon, IAttCommonPart, IAttBibl, IAttLang, IAttPointing, IAttInternetmedia
     {
         
         public IncipText() : base("incipText") { }

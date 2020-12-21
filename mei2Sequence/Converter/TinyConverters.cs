@@ -176,7 +176,7 @@ namespace mei2Sequence
 
     private static Model.BarlineType ConvertBarlineType(mei.BarLine _meibarline)
     {
-      string rend = _meibarline.GetRendValue();
+      string rend = _meibarline.GetFormValue();
 
       if (rend == null)
       {

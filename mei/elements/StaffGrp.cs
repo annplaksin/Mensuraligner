@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <staffGrp/>
     /// </summary>
-    public class StaffGrp : MeiElement, IAttCommon, IAttDeclaring, IAttStaffGrpVis, IAttLabelsAddl, IAttStaffgroupingsym, IAttVisibility, IAttInstrumentident
+    public class StaffGrp : MeiElement, IAttCommon, IAttCommonPart, IAttDeclaring, IAttStaffGrpVis, IAttLabelsAddl, IAttStaffgroupingsym, IAttVisibility, IAttInstrumentident
     {
         
         public StaffGrp() : base("staffGrp") { }

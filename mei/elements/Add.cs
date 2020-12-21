@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <add/>
     /// </summary>
-    public class Add : MeiElement, IAttCommon, IAttEdit, IAttResponsibility, IAttSource, IAttHandident, IAttSequence
+    public class Add : MeiElement, IAttCommon, IAttCommonPart, IAttResponsibility, IAttSource, IAttEvidence, IAttLang, IAttHandident, IAttSequence, IAttTyped
     {
         
         public Add() : base("add") { }
@@ -34,6 +29,33 @@ namespace mei
         public Add(params object[] _content) : base("add", _content) { }
 
 
-        
+        #region method
+    
+    public void SetMethod(string _val)
+    {
+      MeiAtt_controller.SetAttribute(this, "method", _val);
+    }
+
+    public XAttribute GetMethodAttribute()
+    {
+      return MeiAtt_controller.GetAttribute(this, "method");
+    }
+    
+    public string GetMethodValue()
+    {
+      return MeiAtt_controller.GetAttributeValue(this, "method");
+    }
+    
+    public bool HasMethod()
+    {
+      return MeiAtt_controller.HasAttribute(this, "method");
+    }
+
+    public void RemoveMethod()
+    {
+      MeiAtt_controller.RemoveAttribute(this, "method");
+    }
+    #endregion
+
     }
 }

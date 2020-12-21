@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
   /// Interface for att.name
   /// </summary>
-  public interface IAttName : IMEiAtt, IAttAuthorized, IAttCanonical
+  public interface IAttName : IMEiAtt, IAttAuthorized, IAttCanonical, IAttDatable, IAttFiling
   {
 
   }
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "nymref");
     }
-
+    
     public static string GetNymrefValue(this IAttName e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "nymref");
     }
-
+    
     public static bool HasNymref(this IAttName e)
     {
       return MeiAtt_controller.HasAttribute(e, "nymref");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "role");
     }
-
+    
     public static string GetRoleValue(this IAttName e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "role");
     }
-
+    
     public static bool HasRole(this IAttName e)
     {
       return MeiAtt_controller.HasAttribute(e, "role");

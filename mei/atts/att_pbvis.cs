@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -35,31 +30,31 @@ namespace mei
   /// </summary>
   public static class AttPbVis_extensions
   {
-    #region func
+    #region folium
     
-    public static void SetFunc(this IAttPbVis e, string _val)
+    public static void SetFolium(this IAttPbVis e, string _val)
     {
-      MeiAtt_controller.SetAttribute(e, "func", _val);
+      MeiAtt_controller.SetAttribute(e, "folium", _val);
     }
 
-    public static XAttribute GetFuncAttribute(this IAttPbVis e)
+    public static XAttribute GetFoliumAttribute(this IAttPbVis e)
     {
-      return MeiAtt_controller.GetAttribute(e, "func");
+      return MeiAtt_controller.GetAttribute(e, "folium");
+    }
+    
+    public static string GetFoliumValue(this IAttPbVis e)
+    {
+      return MeiAtt_controller.GetAttributeValue(e, "folium");
+    }
+    
+    public static bool HasFolium(this IAttPbVis e)
+    {
+      return MeiAtt_controller.HasAttribute(e, "folium");
     }
 
-    public static string GetFuncValue(this IAttPbVis e)
+    public static void RemoveFolium(this IAttPbVis e)
     {
-      return MeiAtt_controller.GetAttributeValue(e, "func");
-    }
-
-    public static bool HasFunc(this IAttPbVis e)
-    {
-      return MeiAtt_controller.HasAttribute(e, "func");
-    }
-
-    public static void RemoveFunc(this IAttPbVis e)
-    {
-      MeiAtt_controller.RemoveAttribute(e, "func");
+      MeiAtt_controller.RemoveAttribute(e, "folium");
     }
     #endregion
 

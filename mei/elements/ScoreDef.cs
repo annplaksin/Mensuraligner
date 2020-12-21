@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <scoreDef/>
     /// </summary>
-    public class ScoreDef : MeiElement, IAttCommon, IAttCleffingLog, IAttDurationDefault, IAttKeySigDefaultLog, IAttMeterSigDefaultLog, IAttOctavedefault, IAttTransposition, IAttMensuralLog, IAttMensuralShared, IAttScoreDefVis, IAttBarplacement, IAttCleffingVis, IAttDistances, IAttKeySigDefaultVis, IAttLyricstyle, IAttMeterSigDefaultVis, IAttMultinummeasures, IAttOnelinestaff, IAttTextstyle, IAttMensuralVis, IAttScoreDefGes, IAttMmtempo
+    public class ScoreDef : MeiElement, IAttCommon, IAttCommonPart, IAttCleffingLog, IAttDurationDefault, IAttKeySigDefaultLog, IAttMeterSigDefaultLog, IAttOctavedefault, IAttTransposition, IAttMensuralLog, IAttMensuralShared, IAttScoreDefVis, IAttBarplacement, IAttCleffingVis, IAttDistances, IAttEndings, IAttKeySigDefaultVis, IAttLyricstyle, IAttMeasurenumbers, IAttMeterSigDefaultVis, IAttMultinummeasures, IAttNotationstyle, IAttOnelinestaff, IAttOptimization, IAttPages, IAttSpacing, IAttSystems, IAttTextstyle, IAttMensuralVis, IAttScoreDefGes, IAttMmtempo
     {
         
         public ScoreDef() : base("scoreDef") { }

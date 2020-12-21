@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "mensur.color");
     }
-
+    
     public static string GetMensurColorValue(this IAttMensuralVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "mensur.color");
     }
-
+    
     public static bool HasMensurColor(this IAttMensuralVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "mensur.color");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "mensur.form");
     }
-
+    
     public static string GetMensurFormValue(this IAttMensuralVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "mensur.form");
     }
-
+    
     public static bool HasMensurForm(this IAttMensuralVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "mensur.form");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "mensur.loc");
     }
-
+    
     public static string GetMensurLocValue(this IAttMensuralVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "mensur.loc");
     }
-
+    
     public static bool HasMensurLoc(this IAttMensuralVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "mensur.loc");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "mensur.orient");
     }
-
+    
     public static string GetMensurOrientValue(this IAttMensuralVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "mensur.orient");
     }
-
+    
     public static bool HasMensurOrient(this IAttMensuralVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "mensur.orient");
@@ -158,12 +153,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "mensur.size");
     }
-
+    
     public static string GetMensurSizeValue(this IAttMensuralVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "mensur.size");
     }
-
+    
     public static bool HasMensurSize(this IAttMensuralVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "mensur.size");

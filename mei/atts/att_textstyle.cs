@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "text.fam");
     }
-
+    
     public static string GetTextFamValue(this IAttTextstyle e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "text.fam");
     }
-
+    
     public static bool HasTextFam(this IAttTextstyle e)
     {
       return MeiAtt_controller.HasAttribute(e, "text.fam");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "text.name");
     }
-
+    
     public static string GetTextNameValue(this IAttTextstyle e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "text.name");
     }
-
+    
     public static bool HasTextName(this IAttTextstyle e)
     {
       return MeiAtt_controller.HasAttribute(e, "text.name");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "text.size");
     }
-
+    
     public static string GetTextSizeValue(this IAttTextstyle e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "text.size");
     }
-
+    
     public static bool HasTextSize(this IAttTextstyle e)
     {
       return MeiAtt_controller.HasAttribute(e, "text.size");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "text.style");
     }
-
+    
     public static string GetTextStyleValue(this IAttTextstyle e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "text.style");
     }
-
+    
     public static bool HasTextStyle(this IAttTextstyle e)
     {
       return MeiAtt_controller.HasAttribute(e, "text.style");
@@ -158,12 +153,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "text.weight");
     }
-
+    
     public static string GetTextWeightValue(this IAttTextstyle e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "text.weight");
     }
-
+    
     public static bool HasTextWeight(this IAttTextstyle e)
     {
       return MeiAtt_controller.HasAttribute(e, "text.weight");

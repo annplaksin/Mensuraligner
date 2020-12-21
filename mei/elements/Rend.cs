@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <rend/>
     /// </summary>
-    public class Rend : MeiElement, IAttColor, IAttCommon, IAttHorizontalalign, IAttLang, IAttTypography, IAttWhitespace
+    public class Rend : MeiElement, IAttColor, IAttCommon, IAttCommonPart, IAttHorizontalalign, IAttLang, IAttTypography, IAttWhitespace
     {
         
         public Rend() : base("rend") { }
@@ -45,12 +40,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "altrend");
     }
-
+    
     public string GetAltrendValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "altrend");
     }
-
+    
     public bool HasAltrend()
     {
       return MeiAtt_controller.HasAttribute(this, "altrend");
@@ -73,12 +68,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "rend");
     }
-
+    
     public string GetRendValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "rend");
     }
-
+    
     public bool HasRend()
     {
       return MeiAtt_controller.HasAttribute(this, "rend");
@@ -101,12 +96,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "rotation");
     }
-
+    
     public string GetRotationValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "rotation");
     }
-
+    
     public bool HasRotation()
     {
       return MeiAtt_controller.HasAttribute(this, "rotation");
@@ -129,12 +124,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "valign");
     }
-
+    
     public string GetValignValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "valign");
     }
-
+    
     public bool HasValign()
     {
       return MeiAtt_controller.HasAttribute(this, "valign");

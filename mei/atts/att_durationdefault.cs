@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "dur.default");
     }
-
+    
     public static string GetDurDefaultValue(this IAttDurationDefault e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "dur.default");
     }
-
+    
     public static bool HasDurDefault(this IAttDurationDefault e)
     {
       return MeiAtt_controller.HasAttribute(e, "dur.default");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "num.default");
     }
-
+    
     public static string GetNumDefaultValue(this IAttDurationDefault e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "num.default");
     }
-
+    
     public static bool HasNumDefault(this IAttDurationDefault e)
     {
       return MeiAtt_controller.HasAttribute(e, "num.default");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "numbase.default");
     }
-
+    
     public static string GetNumbaseDefaultValue(this IAttDurationDefault e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "numbase.default");
     }
-
+    
     public static bool HasNumbaseDefault(this IAttDurationDefault e)
     {
       return MeiAtt_controller.HasAttribute(e, "numbase.default");

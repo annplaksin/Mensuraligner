@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <barLine/>
     /// </summary>
-    public class BarLine : MeiElement, IAttCommon, IAttPointing, IAttBarLineLog, IAttMeterconformanceBar, IAttBarplacement, IAttColor, IAttMeasurement, IAttWidth, IAttTimestampMusical, IAttCommonAnl
+    public class BarLine : MeiElement, IAttCommon, IAttCommonPart, IAttPointing, IAttTargeteval, IAttBarLineLog, IAttMeterconformanceBar, IAttBarplacement, IAttColor, IAttMeasurement, IAttWidth, IAttTimestampMusical, IAttCommonAnl
     {
         
         public BarLine() : base("barLine") { }

@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "page.height");
     }
-
+    
     public static string GetPageHeightValue(this IAttPages e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "page.height");
     }
-
+    
     public static bool HasPageHeight(this IAttPages e)
     {
       return MeiAtt_controller.HasAttribute(e, "page.height");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "page.width");
     }
-
+    
     public static string GetPageWidthValue(this IAttPages e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "page.width");
     }
-
+    
     public static bool HasPageWidth(this IAttPages e)
     {
       return MeiAtt_controller.HasAttribute(e, "page.width");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "page.topmar");
     }
-
+    
     public static string GetPageTopmarValue(this IAttPages e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "page.topmar");
     }
-
+    
     public static bool HasPageTopmar(this IAttPages e)
     {
       return MeiAtt_controller.HasAttribute(e, "page.topmar");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "page.botmar");
     }
-
+    
     public static string GetPageBotmarValue(this IAttPages e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "page.botmar");
     }
-
+    
     public static bool HasPageBotmar(this IAttPages e)
     {
       return MeiAtt_controller.HasAttribute(e, "page.botmar");
@@ -158,12 +153,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "page.leftmar");
     }
-
+    
     public static string GetPageLeftmarValue(this IAttPages e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "page.leftmar");
     }
-
+    
     public static bool HasPageLeftmar(this IAttPages e)
     {
       return MeiAtt_controller.HasAttribute(e, "page.leftmar");
@@ -186,12 +181,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "page.rightmar");
     }
-
+    
     public static string GetPageRightmarValue(this IAttPages e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "page.rightmar");
     }
-
+    
     public static bool HasPageRightmar(this IAttPages e)
     {
       return MeiAtt_controller.HasAttribute(e, "page.rightmar");
@@ -214,12 +209,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "page.panels");
     }
-
+    
     public static string GetPagePanelsValue(this IAttPages e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "page.panels");
     }
-
+    
     public static bool HasPagePanels(this IAttPages e)
     {
       return MeiAtt_controller.HasAttribute(e, "page.panels");
@@ -242,12 +237,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "page.scale");
     }
-
+    
     public static string GetPageScaleValue(this IAttPages e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "page.scale");
     }
-
+    
     public static bool HasPageScale(this IAttPages e)
     {
       return MeiAtt_controller.HasAttribute(e, "page.scale");

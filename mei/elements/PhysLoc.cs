@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <physLoc/>
     /// </summary>
-    public class PhysLoc : MeiElement, IAttCommon, IAttBibl
+    public class PhysLoc : MeiElement, IAttCommon, IAttCommonPart, IAttBibl
     {
         
         public PhysLoc() : base("physLoc") { }

@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <page/>
     /// </summary>
-    public class Page : MeiElement, IAttCommon, IAttCommonAnl, IAttSurface, IAttSpacing, IAttSystems
+    public class Page : MeiElement, IAttCommon, IAttCommonPart, IAttCommonAnl, IAttSurface, IAttSpacing, IAttSystems
     {
         
         public Page() : base("page") { }
@@ -45,12 +40,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "height");
     }
-
+    
     public string GetHeightValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "height");
     }
-
+    
     public bool HasHeight()
     {
       return MeiAtt_controller.HasAttribute(this, "height");
@@ -73,12 +68,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "width");
     }
-
+    
     public string GetWidthValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "width");
     }
-
+    
     public bool HasWidth()
     {
       return MeiAtt_controller.HasAttribute(this, "width");
@@ -101,12 +96,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "topmar");
     }
-
+    
     public string GetTopmarValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "topmar");
     }
-
+    
     public bool HasTopmar()
     {
       return MeiAtt_controller.HasAttribute(this, "topmar");
@@ -129,12 +124,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "botmar");
     }
-
+    
     public string GetBotmarValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "botmar");
     }
-
+    
     public bool HasBotmar()
     {
       return MeiAtt_controller.HasAttribute(this, "botmar");
@@ -157,12 +152,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "leftmar");
     }
-
+    
     public string GetLeftmarValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "leftmar");
     }
-
+    
     public bool HasLeftmar()
     {
       return MeiAtt_controller.HasAttribute(this, "leftmar");
@@ -185,12 +180,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "rightmar");
     }
-
+    
     public string GetRightmarValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "rightmar");
     }
-
+    
     public bool HasRightmar()
     {
       return MeiAtt_controller.HasAttribute(this, "rightmar");
@@ -213,12 +208,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "panels");
     }
-
+    
     public string GetPanelsValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "panels");
     }
-
+    
     public bool HasPanels()
     {
       return MeiAtt_controller.HasAttribute(this, "panels");
@@ -241,12 +236,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "scale");
     }
-
+    
     public string GetScaleValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "scale");
     }
-
+    
     public bool HasScale()
     {
       return MeiAtt_controller.HasAttribute(this, "scale");

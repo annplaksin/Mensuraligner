@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
-  /// Interface for att.chord.ges
+  /// Interface for att.cpMark.log
   /// </summary>
-  public interface IAttChordGes : IMEiAtt, IAttArticulationPerformed, IAttDurationPerformed, IAttInstrumentident
+  public interface IAttCpMarkLog : IMEiAtt, IAttControlevent, IAttStartendid, IAttTimestamp2Musical, IAttOriginTimestampMusical, IAttOriginStaffident, IAttOriginLayerident, IAttOriginStartendid, IAttOctavedisplacement
   {
 
   }

@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <relatedItem/>
     /// </summary>
-    public class RelatedItem : MeiElement, IAttDatapointing, IAttCommon, IAttBibl, IAttPointing
+    public class RelatedItem : MeiElement, IAttDatapointing, IAttCommon, IAttCommonPart, IAttBibl, IAttPointing, IAttTargeteval, IAttTyped
     {
         
         public RelatedItem() : base("relatedItem") { }
@@ -45,12 +40,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "rel");
     }
-
+    
     public string GetRelValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "rel");
     }
-
+    
     public bool HasRel()
     {
       return MeiAtt_controller.HasAttribute(this, "rel");

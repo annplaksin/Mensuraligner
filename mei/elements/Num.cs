@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <num/>
     /// </summary>
-    public class Num : MeiElement, IAttCommon, IAttLang, IAttMeasurement
+    public class Num : MeiElement, IAttCommon, IAttCommonPart, IAttLang, IAttMeasurement, IAttTyped
     {
         
         public Num() : base("num") { }
@@ -34,6 +29,33 @@ namespace mei
         public Num(params object[] _content) : base("num", _content) { }
 
 
-        
+        #region value
+    
+    public void SetValue(string _val)
+    {
+      MeiAtt_controller.SetAttribute(this, "value", _val);
+    }
+
+    public XAttribute GetValueAttribute()
+    {
+      return MeiAtt_controller.GetAttribute(this, "value");
+    }
+    
+    public string GetValueValue()
+    {
+      return MeiAtt_controller.GetAttributeValue(this, "value");
+    }
+    
+    public bool HasValue()
+    {
+      return MeiAtt_controller.HasAttribute(this, "value");
+    }
+
+    public void RemoveValue()
+    {
+      MeiAtt_controller.RemoveAttribute(this, "value");
+    }
+    #endregion
+
     }
 }

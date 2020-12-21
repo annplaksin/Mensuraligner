@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "lyric.align");
     }
-
+    
     public static string GetLyricAlignValue(this IAttLyricstyle e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "lyric.align");
     }
-
+    
     public static bool HasLyricAlign(this IAttLyricstyle e)
     {
       return MeiAtt_controller.HasAttribute(e, "lyric.align");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "lyric.fam");
     }
-
+    
     public static string GetLyricFamValue(this IAttLyricstyle e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "lyric.fam");
     }
-
+    
     public static bool HasLyricFam(this IAttLyricstyle e)
     {
       return MeiAtt_controller.HasAttribute(e, "lyric.fam");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "lyric.name");
     }
-
+    
     public static string GetLyricNameValue(this IAttLyricstyle e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "lyric.name");
     }
-
+    
     public static bool HasLyricName(this IAttLyricstyle e)
     {
       return MeiAtt_controller.HasAttribute(e, "lyric.name");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "lyric.size");
     }
-
+    
     public static string GetLyricSizeValue(this IAttLyricstyle e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "lyric.size");
     }
-
+    
     public static bool HasLyricSize(this IAttLyricstyle e)
     {
       return MeiAtt_controller.HasAttribute(e, "lyric.size");
@@ -158,12 +153,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "lyric.style");
     }
-
+    
     public static string GetLyricStyleValue(this IAttLyricstyle e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "lyric.style");
     }
-
+    
     public static bool HasLyricStyle(this IAttLyricstyle e)
     {
       return MeiAtt_controller.HasAttribute(e, "lyric.style");
@@ -186,12 +181,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "lyric.weight");
     }
-
+    
     public static string GetLyricWeightValue(this IAttLyricstyle e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "lyric.weight");
     }
-
+    
     public static bool HasLyricWeight(this IAttLyricstyle e)
     {
       return MeiAtt_controller.HasAttribute(e, "lyric.weight");

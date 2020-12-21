@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "clef.color");
     }
-
+    
     public static string GetClefColorValue(this IAttCleffingVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "clef.color");
     }
-
+    
     public static bool HasClefColor(this IAttCleffingVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "clef.color");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "clef.visible");
     }
-
+    
     public static string GetClefVisibleValue(this IAttCleffingVis e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "clef.visible");
     }
-
+    
     public static bool HasClefVisible(this IAttCleffingVis e)
     {
       return MeiAtt_controller.HasAttribute(e, "clef.visible");

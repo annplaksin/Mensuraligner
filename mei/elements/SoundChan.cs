@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <soundChan/>
     /// </summary>
-    public class SoundChan : MeiElement, IAttCommon, IAttAuthorized, IAttBibl
+    public class SoundChan : MeiElement, IAttCommon, IAttCommonPart, IAttAuthorized, IAttBibl, IAttLang
     {
         
         public SoundChan() : base("soundChan") { }
@@ -34,6 +29,33 @@ namespace mei
         public SoundChan(params object[] _content) : base("soundChan", _content) { }
 
 
-        
+        #region num
+    
+    public void SetNum(string _val)
+    {
+      MeiAtt_controller.SetAttribute(this, "num", _val);
+    }
+
+    public XAttribute GetNumAttribute()
+    {
+      return MeiAtt_controller.GetAttribute(this, "num");
+    }
+    
+    public string GetNumValue()
+    {
+      return MeiAtt_controller.GetAttributeValue(this, "num");
+    }
+    
+    public bool HasNum()
+    {
+      return MeiAtt_controller.HasAttribute(this, "num");
+    }
+
+    public void RemoveNum()
+    {
+      MeiAtt_controller.RemoveAttribute(this, "num");
+    }
+    #endregion
+
     }
 }

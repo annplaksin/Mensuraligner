@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <annot/>
     /// </summary>
-    public class Annot : MeiElement, IAttBibl, IAttCommon, IAttLang, IAttSource, IAttTyped, IAttAugmentdots, IAttDurationAdditive, IAttLayerident, IAttStaffident, IAttStartendid, IAttStartid, IAttTimestampMusical, IAttTimestamp2Musical, IAttTimestampPerformed, IAttDurationPerformed, IAttCommonAnl, IAttPlist, IAttResponsibility
+    public class Annot : MeiElement, IAttBibl, IAttCommon, IAttCommonPart, IAttLang, IAttSource, IAttAugmentdots, IAttDurationAdditive, IAttLayerident, IAttStaffident, IAttStartendid, IAttStartid, IAttTimestampMusical, IAttTimestamp2Musical, IAttTimestampPerformed, IAttDurationPerformed, IAttCommonAnl, IAttPlist, IAttResponsibility, IAttTargeteval, IAttTyped
     {
         
         public Annot() : base("annot") { }

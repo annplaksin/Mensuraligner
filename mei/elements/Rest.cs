@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <rest/>
     /// </summary>
-    public class Rest : MeiElement, IAttCommon, IAttAugmentdots, IAttTimestampMusical, IAttTimestampPerformed, IAttStaffident, IAttLayerident, IAttDurationMusical, IAttFermatapresent, IAttTupletpresent, IAttAltsym, IAttColor, IAttEnclosingchars, IAttRelativesize, IAttRestVisMensural, IAttStaffloc, IAttStafflocPitched, IAttVisualoffsetHo, IAttVisualoffsetTo, IAttVisualoffsetVo, IAttXy, IAttDurationPerformed, IAttInstrumentident, IAttDurationRatio, IAttCommonAnl
+    public class Rest : MeiElement, IAttCommon, IAttCommonPart, IAttAugmentdots, IAttTimestampMusical, IAttTimestampPerformed, IAttStaffident, IAttLayerident, IAttDurationMusical, IAttFermatapresent, IAttTupletpresent, IAttAltsym, IAttColor, IAttEnclosingchars, IAttRelativesize, IAttRestVisMensural, IAttStaffloc, IAttStafflocPitched, IAttTypography, IAttVisualoffsetHo, IAttVisualoffsetTo, IAttVisualoffsetVo, IAttXy, IAttDurationPerformed, IAttInstrumentident, IAttDurationRatio, IAttCommonAnl
     {
         
         public Rest() : base("rest") { }

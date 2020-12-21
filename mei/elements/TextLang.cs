@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <textLang/>
     /// </summary>
-    public class TextLang : MeiElement, IAttCommon, IAttBibl
+    public class TextLang : MeiElement, IAttCommon, IAttCommonPart, IAttBibl, IAttLang
     {
         
         public TextLang() : base("textLang") { }
@@ -45,12 +40,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "mainLang");
     }
-
+    
     public string GetMainLangValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "mainLang");
     }
-
+    
     public bool HasMainLang()
     {
       return MeiAtt_controller.HasAttribute(this, "mainLang");
@@ -73,12 +68,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "otherLangs");
     }
-
+    
     public string GetOtherLangsValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "otherLangs");
     }
-
+    
     public bool HasOtherLangs()
     {
       return MeiAtt_controller.HasAttribute(this, "otherLangs");

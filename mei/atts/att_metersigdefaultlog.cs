@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "meter.count");
     }
-
+    
     public static string GetMeterCountValue(this IAttMeterSigDefaultLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "meter.count");
     }
-
+    
     public static bool HasMeterCount(this IAttMeterSigDefaultLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "meter.count");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "meter.unit");
     }
-
+    
     public static string GetMeterUnitValue(this IAttMeterSigDefaultLog e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "meter.unit");
     }
-
+    
     public static bool HasMeterUnit(this IAttMeterSigDefaultLog e)
     {
       return MeiAtt_controller.HasAttribute(e, "meter.unit");

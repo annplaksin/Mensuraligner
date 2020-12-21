@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "plist");
     }
-
+    
     public static string GetPlistValue(this IAttPlist e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "plist");
     }
-
+    
     public static bool HasPlist(this IAttPlist e)
     {
       return MeiAtt_controller.HasAttribute(e, "plist");
@@ -60,34 +55,6 @@ namespace mei
     public static void RemovePlist(this IAttPlist e)
     {
       MeiAtt_controller.RemoveAttribute(e, "plist");
-    }
-    #endregion
-
-    #region evaluate
-    
-    public static void SetEvaluate(this IAttPlist e, string _val)
-    {
-      MeiAtt_controller.SetAttribute(e, "evaluate", _val);
-    }
-
-    public static XAttribute GetEvaluateAttribute(this IAttPlist e)
-    {
-      return MeiAtt_controller.GetAttribute(e, "evaluate");
-    }
-
-    public static string GetEvaluateValue(this IAttPlist e)
-    {
-      return MeiAtt_controller.GetAttributeValue(e, "evaluate");
-    }
-
-    public static bool HasEvaluate(this IAttPlist e)
-    {
-      return MeiAtt_controller.HasAttribute(e, "evaluate");
-    }
-
-    public static void RemoveEvaluate(this IAttPlist e)
-    {
-      MeiAtt_controller.RemoveAttribute(e, "evaluate");
     }
     #endregion
 

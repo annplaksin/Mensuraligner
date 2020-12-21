@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <system/>
     /// </summary>
-    public class System : MeiElement, IAttCommon, IAttSbVis, IAttCommonAnl, IAttSource, IAttVisualoffsetVo, IAttVisualoffset2Ho, IAttSpacing, IAttStaffGrpVis, IAttLabelsAddl, IAttStaffgroupingsym, IAttVisibility
+    public class System : MeiElement, IAttCommon, IAttCommonPart, IAttSbVis, IAttAltsym, IAttTypography, IAttCommonAnl, IAttSource, IAttVisualoffsetVo, IAttVisualoffset2Ho, IAttSpacing, IAttStaffGrpVis, IAttLabelsAddl, IAttStaffgroupingsym, IAttVisibility
     {
         
         public System() : base("system") { }
@@ -45,12 +40,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "leftline");
     }
-
+    
     public string GetLeftlineValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "leftline");
     }
-
+    
     public bool HasLeftline()
     {
       return MeiAtt_controller.HasAttribute(this, "leftline");
@@ -73,12 +68,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "leftmar");
     }
-
+    
     public string GetLeftmarValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "leftmar");
     }
-
+    
     public bool HasLeftmar()
     {
       return MeiAtt_controller.HasAttribute(this, "leftmar");
@@ -101,12 +96,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "rightmar");
     }
-
+    
     public string GetRightmarValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "rightmar");
     }
-
+    
     public bool HasRightmar()
     {
       return MeiAtt_controller.HasAttribute(this, "rightmar");
@@ -129,12 +124,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(this, "topmar");
     }
-
+    
     public string GetTopmarValue()
     {
       return MeiAtt_controller.GetAttributeValue(this, "topmar");
     }
-
+    
     public bool HasTopmar()
     {
       return MeiAtt_controller.HasAttribute(this, "topmar");

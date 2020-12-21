@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "spacing.packexp");
     }
-
+    
     public static string GetSpacingPackexpValue(this IAttSpacing e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "spacing.packexp");
     }
-
+    
     public static bool HasSpacingPackexp(this IAttSpacing e)
     {
       return MeiAtt_controller.HasAttribute(e, "spacing.packexp");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "spacing.packfact");
     }
-
+    
     public static string GetSpacingPackfactValue(this IAttSpacing e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "spacing.packfact");
     }
-
+    
     public static bool HasSpacingPackfact(this IAttSpacing e)
     {
       return MeiAtt_controller.HasAttribute(e, "spacing.packfact");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "spacing.staff");
     }
-
+    
     public static string GetSpacingStaffValue(this IAttSpacing e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "spacing.staff");
     }
-
+    
     public static bool HasSpacingStaff(this IAttSpacing e)
     {
       return MeiAtt_controller.HasAttribute(e, "spacing.staff");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "spacing.system");
     }
-
+    
     public static string GetSpacingSystemValue(this IAttSpacing e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "spacing.system");
     }
-
+    
     public static bool HasSpacingSystem(this IAttSpacing e)
     {
       return MeiAtt_controller.HasAttribute(e, "spacing.system");

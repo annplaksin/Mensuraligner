@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -35,31 +30,59 @@ namespace mei
   /// </summary>
   public static class AttCurverend_extensions
   {
-    #region rend
+    #region lform
     
-    public static void SetRend(this IAttCurverend e, string _val)
+    public static void SetLform(this IAttCurverend e, string _val)
     {
-      MeiAtt_controller.SetAttribute(e, "rend", _val);
+      MeiAtt_controller.SetAttribute(e, "lform", _val);
     }
 
-    public static XAttribute GetRendAttribute(this IAttCurverend e)
+    public static XAttribute GetLformAttribute(this IAttCurverend e)
     {
-      return MeiAtt_controller.GetAttribute(e, "rend");
+      return MeiAtt_controller.GetAttribute(e, "lform");
+    }
+    
+    public static string GetLformValue(this IAttCurverend e)
+    {
+      return MeiAtt_controller.GetAttributeValue(e, "lform");
+    }
+    
+    public static bool HasLform(this IAttCurverend e)
+    {
+      return MeiAtt_controller.HasAttribute(e, "lform");
     }
 
-    public static string GetRendValue(this IAttCurverend e)
+    public static void RemoveLform(this IAttCurverend e)
     {
-      return MeiAtt_controller.GetAttributeValue(e, "rend");
+      MeiAtt_controller.RemoveAttribute(e, "lform");
+    }
+    #endregion
+
+    #region lwidth
+    
+    public static void SetLwidth(this IAttCurverend e, string _val)
+    {
+      MeiAtt_controller.SetAttribute(e, "lwidth", _val);
     }
 
-    public static bool HasRend(this IAttCurverend e)
+    public static XAttribute GetLwidthAttribute(this IAttCurverend e)
     {
-      return MeiAtt_controller.HasAttribute(e, "rend");
+      return MeiAtt_controller.GetAttribute(e, "lwidth");
+    }
+    
+    public static string GetLwidthValue(this IAttCurverend e)
+    {
+      return MeiAtt_controller.GetAttributeValue(e, "lwidth");
+    }
+    
+    public static bool HasLwidth(this IAttCurverend e)
+    {
+      return MeiAtt_controller.HasAttribute(e, "lwidth");
     }
 
-    public static void RemoveRend(this IAttCurverend e)
+    public static void RemoveLwidth(this IAttCurverend e)
     {
-      MeiAtt_controller.RemoveAttribute(e, "rend");
+      MeiAtt_controller.RemoveAttribute(e, "lwidth");
     }
     #endregion
 

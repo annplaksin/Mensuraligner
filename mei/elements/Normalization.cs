@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <normalization/>
     /// </summary>
-    public class Normalization : MeiElement, IAttCommon, IAttBibl, IAttDatapointing, IAttLang, IAttRegularmethod
+    public class Normalization : MeiElement, IAttCommon, IAttCommonPart, IAttBibl, IAttDatapointing, IAttLang, IAttRegularmethod
     {
         
         public Normalization() : base("normalization") { }

@@ -140,7 +140,7 @@ namespace mei2Sequence.Tests
     {
       if (meilinetype != null)
       {
-        meibarline.SetRend(meilinetype);
+        meibarline.SetForm(meilinetype);
       }
 
       TinyConverters.ConvertBarline(barline, meibarline);

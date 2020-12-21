@@ -14,17 +14,12 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
     /// <layer/>
     /// </summary>
-    public class Layer : MeiElement, IAttCommon, IAttDeclaring, IAttLayerLog, IAttMeterconformance, IAttVisibility, IAttCommonAnl
+    public class Layer : MeiElement, IAttCommonPart, IAttDeclaring, IAttLayerLog, IAttMeterconformance, IAttVisibility, IAttCommonAnl
     {
         
         public Layer() : base("layer") { }
@@ -34,6 +29,33 @@ namespace mei
         public Layer(params object[] _content) : base("layer", _content) { }
 
 
-        
+        #region n
+    
+    public void SetN(string _val)
+    {
+      MeiAtt_controller.SetAttribute(this, "n", _val);
+    }
+
+    public XAttribute GetNAttribute()
+    {
+      return MeiAtt_controller.GetAttribute(this, "n");
+    }
+    
+    public string GetNValue()
+    {
+      return MeiAtt_controller.GetAttributeValue(this, "n");
+    }
+    
+    public bool HasN()
+    {
+      return MeiAtt_controller.HasAttribute(this, "n");
+    }
+
+    public void RemoveN()
+    {
+      MeiAtt_controller.RemoveAttribute(this, "n");
+    }
+    #endregion
+
     }
 }

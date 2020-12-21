@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -35,31 +30,31 @@ namespace mei
   /// </summary>
   public static class AttCanonical_extensions
   {
-    #region dbkey
+    #region codedval
     
-    public static void SetDbkey(this IAttCanonical e, string _val)
+    public static void SetCodedval(this IAttCanonical e, string _val)
     {
-      MeiAtt_controller.SetAttribute(e, "dbkey", _val);
+      MeiAtt_controller.SetAttribute(e, "codedval", _val);
     }
 
-    public static XAttribute GetDbkeyAttribute(this IAttCanonical e)
+    public static XAttribute GetCodedvalAttribute(this IAttCanonical e)
     {
-      return MeiAtt_controller.GetAttribute(e, "dbkey");
+      return MeiAtt_controller.GetAttribute(e, "codedval");
+    }
+    
+    public static string GetCodedvalValue(this IAttCanonical e)
+    {
+      return MeiAtt_controller.GetAttributeValue(e, "codedval");
+    }
+    
+    public static bool HasCodedval(this IAttCanonical e)
+    {
+      return MeiAtt_controller.HasAttribute(e, "codedval");
     }
 
-    public static string GetDbkeyValue(this IAttCanonical e)
+    public static void RemoveCodedval(this IAttCanonical e)
     {
-      return MeiAtt_controller.GetAttributeValue(e, "dbkey");
-    }
-
-    public static bool HasDbkey(this IAttCanonical e)
-    {
-      return MeiAtt_controller.HasAttribute(e, "dbkey");
-    }
-
-    public static void RemoveDbkey(this IAttCanonical e)
-    {
-      MeiAtt_controller.RemoveAttribute(e, "dbkey");
+      MeiAtt_controller.RemoveAttribute(e, "codedval");
     }
     #endregion
 

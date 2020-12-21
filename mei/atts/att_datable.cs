@@ -14,11 +14,6 @@ using System.Xml.Linq;
 // by Andrew Hankinson, Alastair Porter, and Others
 /////////////////////////////////////////////////////////////////////////////
 
-/////////////////////////////////////////////////////////////////////////////
-// NOTE: this file was generated with the Verovio libmei version and
-// should not be edited because changes will be lost.
-/////////////////////////////////////////////////////////////////////////////
-
 namespace mei
 {
     /// <summary>
@@ -46,12 +41,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "enddate");
     }
-
+    
     public static string GetEnddateValue(this IAttDatable e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "enddate");
     }
-
+    
     public static bool HasEnddate(this IAttDatable e)
     {
       return MeiAtt_controller.HasAttribute(e, "enddate");
@@ -74,12 +69,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "isodate");
     }
-
+    
     public static string GetIsodateValue(this IAttDatable e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "isodate");
     }
-
+    
     public static bool HasIsodate(this IAttDatable e)
     {
       return MeiAtt_controller.HasAttribute(e, "isodate");
@@ -102,12 +97,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "notafter");
     }
-
+    
     public static string GetNotafterValue(this IAttDatable e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "notafter");
     }
-
+    
     public static bool HasNotafter(this IAttDatable e)
     {
       return MeiAtt_controller.HasAttribute(e, "notafter");
@@ -130,12 +125,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "notbefore");
     }
-
+    
     public static string GetNotbeforeValue(this IAttDatable e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "notbefore");
     }
-
+    
     public static bool HasNotbefore(this IAttDatable e)
     {
       return MeiAtt_controller.HasAttribute(e, "notbefore");
@@ -158,12 +153,12 @@ namespace mei
     {
       return MeiAtt_controller.GetAttribute(e, "startdate");
     }
-
+    
     public static string GetStartdateValue(this IAttDatable e)
     {
       return MeiAtt_controller.GetAttributeValue(e, "startdate");
     }
-
+    
     public static bool HasStartdate(this IAttDatable e)
     {
       return MeiAtt_controller.HasAttribute(e, "startdate");
