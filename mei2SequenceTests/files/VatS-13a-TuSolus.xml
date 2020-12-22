@@ -1,9 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href='mei-Mensural_sourceEncoding.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?>
 <?xml-model href="mei-Mensural_sourceEncoding.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<music xmlns="http://www.music-encoding.org/ns/mei"
-    xmlns:mse="http://github.com/annplaksin/mensural_sourceEncoding" meiversion="2013"
-    meiversion.num="2.1.1">
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:mse="http://github.com/annplaksin/mensural_sourceEncoding" meiversion="3.0.0">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Tu solus qui facis mirabilia</title>
+                <title type="subordinate">Sample encoding</title>
+                <composer>Josquin des Prez</composer>
+                <respStmt>
+                    <resp>Encoded by:</resp>
+                    <persName xml:id="AP">Anna Plaksin</persName>
+                </respStmt>
+            </titleStmt>
+            <pubStmt>
+                <date isodate="2021">2021</date>
+            </pubStmt>
+            <seriesStmt>
+                <title>Mensuraligner test files</title>
+            </seriesStmt>
+            <sourceDesc>
+                <source>
+                    <identifier>VatS 41 fol. 155v-156r</identifier>
+                    <physLoc>
+                        <repository codedval="V-VCbav" authority="RISM">
+                            <corpName>Biblioteca Apostolica Vaticana</corpName>
+                            <geogName>Città del Vaticano</geogName>
+                        </repository>
+                        <identifier>MS Capp. Sist. 41</identifier>
+                    </physLoc>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    Used encoding principles declared in: 
+                    <bibl>Plaksin, Anna: Modelle zur computergestützten Analyse von Überlieferungen der Mensuralmusik, Münster, 2021.</bibl>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <workDesc>
+            <work>
+                <identifier authority="New Josquin Edition">NJE 22.5</identifier>
+                <titleStmt>
+                    <title>Tu solus qui facis mirabilia</title>
+                    <composer>Josquin des Prez</composer>
+                </titleStmt>
+            </work>
+        </workDesc>
+    </meiHead>
+    <music>
     <body>
         <mdiv n="13a" type="section">
             <pages>
@@ -89,7 +136,7 @@
                                     <dot form="aug"/>
                                     <note dur="semibrevis" pname="g" oct="4"/>
                                     <note dur="longa" pname="g" oct="4"/>
-                                    <barLine rend="dbl"/>
+                                    <barLine form="dbl"/>
                                     <mensur altsym="#Mensur_Ccut" sign="C" slash="1" tempus="2" prolatio="2" numbase="1" num="2"/>
                                     <rest dur="maxima"/>
                                     <note dur="semibrevis" pname="b" oct="4"/>
@@ -161,7 +208,7 @@
                                     <note dur="brevis" pname="g" oct="4" fermata="above"/>
                                     <note dur="brevis" pname="f" oct="4" fermata="above"/>
                                     <note dur="longa" pname="g" oct="4"/>
-                                    <barLine rend="single"/>
+                                    <barLine form="single"/>
                                 </layer>
                             </staff>
                         </system>
@@ -235,7 +282,7 @@
                                     <dot form="aug"/>
                                     <note dur="semibrevis" pname="g" oct="3"/>
                                     <note dur="longa" pname="g" oct="3"/>
-                                    <barLine rend="single"/>
+                                    <barLine form="single"/>
                                     <note dur="semibrevis" pname="b" oct="3"/>
                                     <note dur="minima" pname="b" oct="3"/>
                                     <note dur="minima" pname="b" oct="3"/>
@@ -335,7 +382,7 @@
                                     <note dur="brevis" pname="c" oct="4" fermata="above"/>
                                     <note dur="brevis" pname="a" oct="4" fermata="above"/>
                                     <note dur="longa" pname="g" oct="3"/>
-                                    <barLine rend="dbl"/>
+                                    <barLine form="dbl"/>
                                 </layer>
                             </staff>
                         </system>
@@ -412,7 +459,7 @@
                                     <dot form="aug"/>
                                     <note dur="semibrevis" pname="b" oct="3"/>
                                     <note dur="longa" pname="d" oct="4"/>
-                                    <barLine rend="single"/>
+                                    <barLine form="single"/>
                                 </layer>
                             </staff>
                         </system>
@@ -505,7 +552,7 @@
                                     <note dur="brevis" pname="e" oct="4" fermata="above"/>
                                     <note dur="brevis" pname="d" oct="4" fermata="above"/>
                                     <note dur="longa" pname="d" oct="4" fermata="above"/>
-                                    <barLine rend="dbl"/>
+                                    <barLine form="dbl"/>
                                 </layer>
                             </staff>
                         </system>
@@ -574,7 +621,7 @@
                                     <dot form="aug"/>
                                     <note dur="semibrevis" pname="g" oct="2"/>
                                     <note dur="longa" pname="g" oct="2"/>
-                                    <barLine rend="single"/>
+                                    <barLine form="single"/>
                                     <custos pname="g" oct="3"/>
                                 </layer>
                             </staff>
@@ -660,7 +707,7 @@
                                     <note dur="brevis" pname="c" oct="3" fermata="above"/>
                                     <note dur="brevis" pname="d" oct="3" fermata="above"/>
                                     <note dur="maxima" pname="g" oct="2"/>
-                                    <barLine rend="dbl"/>
+                                    <barLine form="dbl"/>
                                 </layer>
                             </staff>
                         </system>
@@ -670,3 +717,5 @@
         </mdiv>
     </body>
 </music>
+
+</mei>

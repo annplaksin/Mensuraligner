@@ -1,8 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href='mei-Mensural_sourceEncoding.rng' type='application/xml' schematypens='http://relaxng.org/ns/structure/1.0'?>
 <?xml-model href="mei-Mensural_sourceEncoding.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<music xmlns="http://www.music-encoding.org/ns/mei"
-    xmlns:mse="http://github.com/annplaksin/mensural_sourceEncoding">
+<mei xmlns="http://www.music-encoding.org/ns/mei" xmlns:mse="http://github.com/annplaksin/mensural_sourceEncoding" meiversion="3.0.0">
+    <meiHead>
+        <fileDesc>
+            <titleStmt>
+                <title type="main">Tu solus qui facis mirabilia</title>
+                <title type="subordinate">Sample encoding</title>
+                <composer>Josquin des Prez</composer>
+                <respStmt>
+                    <resp>Encoded by:</resp>
+                    <persName xml:id="AP">Anna Plaksin</persName>
+                </respStmt>
+            </titleStmt>
+            <pubStmt>
+                <date isodate="2021">2021</date>
+            </pubStmt>
+            <seriesStmt>
+                <title>Mensuraligner test files</title>
+            </seriesStmt>
+            <sourceDesc>
+                <source>
+                    <identifier>FlorBN Panc. 27 fol. 79v-80r</identifier>
+                    <physLoc>
+                        <repository codedval="I-Fn" authority="RISM">
+                            <corpName>Biblioteca Nazionale Centrale</corpName>
+                            <geogName>Firenze</geogName>
+                        </repository>
+                        <identifier>MS Panciatichiano 27</identifier>
+                    </physLoc>
+                </source>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>
+                    Used encoding principles declared in: 
+                    <bibl>Plaksin, Anna: Modelle zur computergestützten Analyse von Überlieferungen der Mensuralmusik, Münster, 2021.</bibl>
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <workDesc>
+            <work>
+                <identifier authority="New Josquin Edition">NJE 22.5</identifier>
+                <titleStmt>
+                    <title>Tu solus qui facis mirabilia</title>
+                    <composer>Josquin des Prez</composer>
+                </titleStmt>
+            </work>
+        </workDesc>
+    </meiHead>
+    <music>
     <body>
         <mdiv type="section">
             <pages>
@@ -137,7 +185,7 @@
                                     <note dur="brevis" pname="g" oct="4" fermata="above"/>
                                     <note dur="brevis" pname="f" oct="4" fermata="above"/>
                                     <note dur="maxima" pname="g" oct="4" fermata="above"/>
-                                    <barLine rend="dbl"/>
+                                    <barLine form="dbl"/>
                                 </layer>
                             </staff>
                         </system>
@@ -302,7 +350,7 @@
                                     <note dur="brevis" pname="c" oct="4" fermata="above"/>
                                     <note dur="brevis" pname="a" oct="3" fermata="above"/>
                                     <note dur="longa" pname="g" oct="3" fermata="above"/>
-                                    <barLine rend="dbl"/>
+                                    <barLine form="dbl"/>
                                 </layer>
                             </staff>
                         </system>
@@ -460,7 +508,7 @@
                                     <note dur="brevis" pname="e" oct="4" fermata="above"/>
                                     <note dur="brevis" pname="d" oct="4" fermata="above"/>
                                     <note dur="longa" pname="e" oct="4" fermata="above"/>
-                                    <barLine rend="dbl"/>
+                                    <barLine form="dbl"/>
                                 </layer>
                             </staff>
                         </system>
@@ -586,7 +634,7 @@
                                     <rest dur="semibrevis"/>
                                     <rest dur="semibrevis"/>
                                     <note dur="semibrevis" pname="g" oct="3"/>
-                                    <del rend="erased">
+                                    <del rend="none">
                                         <note dur="semibrevis" pname="f" oct="3"/>
                                     </del>
                                     <ligature form="recta">
@@ -602,7 +650,7 @@
                                     <note dur="semibrevis" pname="c" oct="3"/>
                                     <ligature form="recta">
                                         <subst label="correction" evidence="internal">
-                                            <del rend="correction with vaqua-sign">
+                                            <del label="correction with vaqua-sign">
                                                 <sic>
                                                     <annot resp="#AP">
                                                         Coloration is obvious erroneous, so also the alteration with @num and @numbase.
@@ -627,7 +675,7 @@
                                     <note dur="brevis" pname="c" oct="3" fermata="above"/>
                                     <note dur="brevis" pname="d" oct="3" fermata="above"/>
                                     <note dur="longa" pname="g" oct="2" fermata="above"/>
-                                    <barLine rend="dbl"/>
+                                    <barLine form="dbl"/>
                                 </layer>
                             </staff>
                         </system>
@@ -637,3 +685,5 @@
         </mdiv>
     </body>
 </music>
+
+</mei>
