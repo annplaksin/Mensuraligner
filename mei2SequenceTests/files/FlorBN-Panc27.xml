@@ -36,7 +36,11 @@
             <editorialDecl>
                 <p>
                     Used encoding principles declared in: 
-                    <bibl>Plaksin, Anna: Modelle zur computergestützten Analyse von Überlieferungen der Mensuralmusik, Münster, 2021.</bibl>
+                    <bibl>Plaksin, Anna Viktoria Katrin: "Modelle zur computergestützten Analyse von Überlieferungen 
+                        der Mensuralmusik. Emprische Textforschung im Kontext phylogenetischer Verfahren.", Münster, 2021 
+                        (Schriften zur Musikwissenschaft aus Münster 27), 
+                        online: <ref target="http://nbn-resolving.de/urn:nbn:de:hbz:6-59029717067">urn:nbn:de:hbz:6-59029717067</ref>
+                    </bibl>
                 </p>
             </editorialDecl>
         </encodingDesc>
