@@ -8,14 +8,14 @@ The Neighbor-Joining result is a tree in the [Newick format](https://evolution.g
 use a software like DRAWTREE from the [PHYLIP](https://evolution.genetics.washington.edu/phylip.html) package to draw an unrooted tree.
 
 For more information, see: 
-* Plaksin, Anna Viktoria Katrin: "Modelle zur computergestützten Analyse von Überlieferungen 
-	der Mensuralmusik. Emprische Textforschung im Kontext phylogenetischer Verfahren.", Münster, 2021 
-	(Schriften zur Musikwissenschaft aus Münster 27), online: [urn:nbn:de:hbz:6-59029717067](http://nbn-resolving.de/urn:nbn:de:hbz:6-59029717067).
+* Plaksin, Anna Viktoria Katrin: "Modelle zur computergestÃ¼tzten Analyse von Ãœberlieferungen 
+	der Mensuralmusik. Emprische Textforschung im Kontext phylogenetischer Verfahren.", MÃ¼nster, 2021 
+	(Schriften zur Musikwissenschaft aus MÃ¼nster 27), online: [urn:nbn:de:hbz:6-59029717067](http://nbn-resolving.de/urn:nbn:de:hbz:6-59029717067),  DOI: [10.26083/tuprints-00017211](https://doi.org/10.26083/tuprints-00017211).
 * Anna Plaksin: "Do visual features matter? Studies in phylogenetic analysis of mensural music", in: Music Encoding Conference 2020, 
 	edited by Elsa de Luca and Julia Flanders. 2020; DOI: [10.17613/pzy7-ek18](http://dx.doi.org/10.17613/pzy7-ek18)
-* Anna Plaksin: "Differenz und Ähnlichkeit in der computergestützten Filiation von Renaissancemusik. 
-	Zur datenbasierten Evaluation von Substitutionsmodellen mithilfe von Surrogatdaten", in: DHd 2020 Spielräume: Digital Humanities zwischen Modellierung und Interpretation. 
-	Konferenzabstracts, hrsg. von Christof Schöch, 119-122. 2020. DOI: [10.5281/zenodo.3666690](http://doi.org/10.5281/zenodo.3666690)
+* Anna Plaksin: "Differenz und Ã„hnlichkeit in der computergestÃ¼tzten Filiation von Renaissancemusik. 
+	Zur datenbasierten Evaluation von Substitutionsmodellen mithilfe von Surrogatdaten", in: DHd 2020 SpielrÃ¤ume: Digital Humanities zwischen Modellierung und Interpretation. 
+	Konferenzabstracts, hrsg. von Christof SchÃ¶ch, 119-122. 2020. DOI: [10.5281/zenodo.3666690](http://doi.org/10.5281/zenodo.3666690)
 
 ## Compilation and Usage
 
