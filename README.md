@@ -30,3 +30,7 @@ After cloning, it can be compiled using Visual Studio.
 * [libmei.NET](https://github.com/annplaksin/libmei), .NET based C# implementation of libmei, developed by Andrew Hankinson and Alastair Porter, see [DDMAL/libmei](https://github.com/DDMAL/libmei)
 * [mei-Mensural_sourceEncoding](https://github.com/annplaksin/mensural_sourceEncoding) MEI customization. Two samples encodings are part of the unit tests.
 * Fraction Class in C# Version 2.3 by Syed Mehroz Alam, Marc Brooks and Jeffrey Sax (published under CPOL license), see [Code Project: Fraction class in C#](https://www.codeproject.com/Articles/9078/Fraction-class-in-C)
+
+## Acknowledgements
+
+Many thanks to [Andreas Prohl-Plaksin](https://github.com/Prohl) for his support!
