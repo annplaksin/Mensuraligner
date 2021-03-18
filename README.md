@@ -1,5 +1,7 @@
 # Mensuraligner
 
+[![DOI](https://zenodo.org/badge/164682221.svg)](https://zenodo.org/badge/latestdoi/164682221)
+
 The Mensuraligner reads encodings of mensural music sources in MEI and performs pairwise alignments and Neighbor-Joining analyis. 
 In addition, it can be used to run a surrogate analysis for the alignments. This will generate a number of randomly scrambled sequences 
 from two original sequences and run a pairwise alignment on the original sequences and on the pairs of scrambled sequences.
